@@ -1,0 +1,1118 @@
+2020-01-19 09:52:50.593  INFO 54502 --- [qtp717164658-48] s.wx                 : wx redirect url formed
+2020-01-19 09:54:55.995  INFO 54502 --- [qtp717164658-65] s.wx                 : wx redirect url formed
+2020-01-19 09:58:03.322  INFO 54502 --- [qtp717164658-66] s.wx                 : wx redirect url formed, start with : http://htzjbj.natappfree.cc
+2020-01-19 09:58:33.426  INFO 54502 --- [qtp717164658-73] s.wx                 : wx access token success
+2020-01-19 09:58:59.067 ERROR 54502 --- [qtp717164658-65] s.wx                 : wx access token failure, errcode: 40163  errmsg:  code been used, hints: [ req_id: 5ejaf2LnRa-S9ZbOA ]
+2020-01-19 09:59:09.724 ERROR 54502 --- [qtp717164658-52] s.wx                 : get weixin access token (by code) error SSL peer shut down incorrectly
+2020-01-19 10:04:16.596  INFO 54502 --- [qtp717164658-65] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:05:22.592  INFO 54502 --- [qtp717164658-48] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:05:40.679  INFO 54502 --- [qtp717164658-66] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:05:42.710  INFO 54502 --- [qtp717164658-48] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:06:41.003  INFO 54502 --- [qtp717164658-66] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:07:04.926  INFO 54502 --- [qtp717164658-68] s.wx                 : weixin user-info by accesstoken {:sex 1, :nickname 蘑菇炭, :city 悉尼, :headimgurl http://thirdwx.qlogo.cn/mmopen/vi_32/apXvlhZqT7Ne7OmlcnkdqAftpYq4Hn9JuIJY1QwKxQl8jqHA73ib1YibwnUeMJPcibQTjf6umdDTwMEhZd1gbWjBw/132, :openid odWJQwh9l8Q3elcN6LV2my88labI, :language en, :province 新南威尔士, :country 澳大利亚, :privilege []}
+2020-01-19 10:10:59.758  INFO 54502 --- [qtp717164658-65] s.wx                 : weixin user-info by accesstoken {:errcode 40001, :errmsg invalid credential, access_token is invalid or not latest, hints: [ req_id: EEjaJK4FE-PkT65 ]}
+2020-01-19 10:16:40.415 ERROR 54502 --- [qtp717164658-65] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: HEjagoLoRa-0rp1ga ]
+2020-01-19 10:16:49.486  INFO 54502 --- [qtp717164658-44] s.wx                 : get weixin user info success
+2020-01-19 10:17:03.050  INFO 54502 --- [qtp717164658-63] s.wx                 : get weixin user info success
+2020-01-19 10:43:03.140  INFO 54502 --- [qtp717164658-26] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:59}] to 127.0.0.1:27017
+2020-01-19 10:43:03.295  INFO 54502 --- [qtp717164658-26] s.user               : user registered, openid is " test "
+2020-01-19 10:43:57.585  INFO 54502 --- [qtp717164658-66] s.user               : user (openid "test") has logged in
+2020-01-19 10:52:52.372  INFO 54502 --- [qtp717164658-63] s.user               : user (openid "test") has logged in
+2020-01-19 10:57:05.328  INFO 54502 --- [qtp717164658-48] s.user               : user (openid "test") has logged in
+2020-01-19 11:06:26.678  INFO 54502 --- [qtp717164658-44] s.user               : user (openid "test") has logged in
+2020-01-19 11:06:28.647  INFO 54502 --- [qtp717164658-66] s.user               : user (openid "test") has logged in
+2020-01-19 11:06:58.032  INFO 54502 --- [qtp717164658-65] s.user               : user (openid "test") has logged in
+2020-01-19 11:06:58.032 ERROR 54502 --- [qtp717164658-65] c.a.exception        : Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+	at clojure.lang.AFn.throwArity(AFn.java:429)
+	at clojure.lang.AFn.invoke(AFn.java:28)
+	at newbiee.handler$fn__25109.invokeStatic(handler.clj:82)
+	at newbiee.handler$fn__25109.invoke(handler.clj:78)
+	at compojure.core$wrap_response$fn__3871.invoke(core.clj:158)
+	at compojure.core$wrap_route_middleware$fn__3855.invoke(core.clj:128)
+	at compojure.core$wrap_route_info$fn__3860.invoke(core.clj:137)
+	at compojure.core$wrap_route_matches$fn__3864.invoke(core.clj:146)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at compojure.core$routing$fn__3879.invoke(core.clj:185)
+	at clojure.core$some.invokeStatic(core.clj:2701)
+	at clojure.core$some.invoke(core.clj:2692)
+	at compojure.core$routing.invokeStatic(core.clj:185)
+	at compojure.core$routing.doInvoke(core.clj:182)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:667)
+	at clojure.core$apply.invoke(core.clj:660)
+	at compojure.core$routes$fn__3883.invoke(core.clj:192)
+	at compojure.api.compojure_compat$make_context$handler__14307.invoke(compojure_compat.clj:26)
+	at compojure.api.compojure_compat$make_context$fn__14309.invoke(compojure_compat.clj:34)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at compojure.core$routing$fn__3879.invoke(core.clj:185)
+	at clojure.core$some.invokeStatic(core.clj:2701)
+	at clojure.core$some.invoke(core.clj:2692)
+	at compojure.core$routing.invokeStatic(core.clj:185)
+	at compojure.core$routing.doInvoke(core.clj:182)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:667)
+	at clojure.core$apply.invoke(core.clj:660)
+	at compojure.core$routes$fn__3883.invoke(core.clj:192)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at ring.swagger.middleware$wrap_swagger_data$fn__15774.invoke(middleware.clj:35)
+	at compojure.api.middleware$wrap_swagger_data$fn__12380.invoke(middleware.clj:190)
+	at compojure.api.middleware$wrap_inject_data$fn__12358.invoke(middleware.clj:96)
+	at muuntaja.middleware$wrap_params$fn__11355.invoke(middleware.clj:52)
+	at compojure.api.middleware$wrap_exceptions$fn__12347.invoke(middleware.clj:62)
+	at muuntaja.middleware$wrap_format_request$fn__11367.invoke(middleware.clj:114)
+	at compojure.api.middleware$wrap_exceptions$fn__12347.invoke(middleware.clj:62)
+	at muuntaja.middleware$wrap_format_response$fn__11371.invoke(middleware.clj:132)
+	at muuntaja.middleware$wrap_format_negotiate$fn__11364.invoke(middleware.clj:96)
+	at ring.middleware.keyword_params$wrap_keyword_params$fn__10002.invoke(keyword_params.clj:53)
+	at ring.middleware.nested_params$wrap_nested_params$fn__10060.invoke(nested_params.clj:89)
+	at ring.middleware.params$wrap_params$fn__10134.invoke(params.clj:67)
+	at compojure.api.middleware$wrap_inject_data$fn__12358.invoke(middleware.clj:96)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at clojure.lang.Var.invoke(Var.java:384)
+	at ring.middleware.reload$wrap_reload$fn__17455.invoke(reload.clj:39)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:27)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 11:07:22.127  INFO 54502 --- [qtp717164658-66] s.user               : user (openid "test") has logged in
+2020-01-19 11:08:35.034  INFO 54502 --- [qtp717164658-63] s.user               : user (openid "test") has logged in
+2020-01-19 11:09:53.562  INFO 61831 --- [d6-f2c5f8f8b3f0] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 11:09:53.628  INFO 61831 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:60}] to 127.0.0.1:27017
+2020-01-19 11:09:53.633  INFO 61831 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2966003}
+2020-01-19 11:11:48.487  INFO 61831 --- [d6-f2c5f8f8b3f0] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:61}] to 127.0.0.1:27017
+2020-01-19 12:09:14.406  INFO 62282 --- [f1-a3483aab188f] o.e.j.u.log          : Logging initialized @2044202ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 12:09:15.640  INFO 62282 --- [f1-a3483aab188f] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 12:09:15.699  INFO 62282 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:62}] to 127.0.0.1:27017
+2020-01-19 12:09:15.705  INFO 62282 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2976778}
+2020-01-19 12:09:45.888  INFO 62282 --- [f1-a3483aab188f] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 12:09:45.950  INFO 62282 --- [f1-a3483aab188f] .s.AbstractConnector : Started ServerConnector@7794f710{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 12:09:45.950  INFO 62282 --- [f1-a3483aab188f] o.e.j.s.Server       : Started @2075748ms
+2020-01-19 12:10:11.863  INFO 62282 --- [qtp555847585-29] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 12:11:45.191  INFO 62704 --- [           main] o.e.j.u.log          : Logging initialized @7812ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 12:11:46.364  INFO 62704 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 12:11:46.426  INFO 62704 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:63}] to 127.0.0.1:27017
+2020-01-19 12:11:46.431  INFO 62704 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2636102}
+2020-01-19 13:13:57.437  INFO 62968 --- [           main] o.e.j.u.log          : Logging initialized @7964ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:13:58.633  INFO 62968 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:13:58.693  INFO 62968 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:64}] to 127.0.0.1:27017
+2020-01-19 13:13:58.698  INFO 62968 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2922618}
+2020-01-19 13:23:07.927  WARN 62282 --- [qtp555847585-24] o.e.j.s.HttpChannel  : /api/plus
+java.lang.IllegalArgumentException: No implementation of method: :write-body-to-stream of protocol: #'ring.core.protocols/StreamableResponseBody found for class: java.lang.Long
+	at clojure.core$_cache_protocol_fn.invokeStatic(core_deftype.clj:583)
+	at clojure.core$_cache_protocol_fn.invoke(core_deftype.clj:575)
+	at ring.core.protocols$eval10277$fn__10278$G__10268__10287.invoke(protocols.clj:8)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:106)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 13:23:19.016  WARN 62282 --- [qtp555847585-30] o.e.j.s.HttpChannel  : /api/plus
+java.lang.IllegalArgumentException: No implementation of method: :write-body-to-stream of protocol: #'ring.core.protocols/StreamableResponseBody found for class: java.lang.Long
+	at clojure.core$_cache_protocol_fn.invokeStatic(core_deftype.clj:583)
+	at clojure.core$_cache_protocol_fn.invoke(core_deftype.clj:575)
+	at ring.core.protocols$eval10277$fn__10278$G__10268__10287.invoke(protocols.clj:8)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:106)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 13:23:19.579  WARN 62282 --- [qtp555847585-28] o.e.j.s.HttpChannel  : /api/plus
+java.lang.IllegalArgumentException: No implementation of method: :write-body-to-stream of protocol: #'ring.core.protocols/StreamableResponseBody found for class: java.lang.Long
+	at clojure.core$_cache_protocol_fn.invokeStatic(core_deftype.clj:583)
+	at clojure.core$_cache_protocol_fn.invoke(core_deftype.clj:575)
+	at ring.core.protocols$eval10277$fn__10278$G__10268__10287.invoke(protocols.clj:8)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:106)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 13:25:56.937  INFO 63151 --- [           main] o.e.j.u.log          : Logging initialized @7829ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:25:58.092  INFO 63151 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:25:58.154  INFO 63151 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:65}] to 127.0.0.1:27017
+2020-01-19 13:25:58.159  INFO 63151 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2863275}
+2020-01-19 13:26:38.965  INFO 63236 --- [           main] o.e.j.u.log          : Logging initialized @7728ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:26:40.109  INFO 63236 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:26:40.172  INFO 63236 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:66}] to 127.0.0.1:27017
+2020-01-19 13:26:40.177  INFO 63236 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2610691}
+2020-01-19 13:27:52.326  INFO 63320 --- [           main] o.e.j.u.log          : Logging initialized @7748ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:27:53.458  INFO 63320 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:27:53.518  INFO 63320 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:67}] to 127.0.0.1:27017
+2020-01-19 13:27:53.523  INFO 63320 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3025861}
+2020-01-19 13:30:15.690  INFO 63405 --- [           main] o.e.j.u.log          : Logging initialized @7783ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:30:16.826  INFO 63405 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:30:16.887  INFO 63405 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:68}] to 127.0.0.1:27017
+2020-01-19 13:30:16.891  INFO 63405 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2557181}
+2020-01-19 13:34:25.986  INFO 63503 --- [           main] o.e.j.u.log          : Logging initialized @7988ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:34:27.116  INFO 63503 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:34:27.177  INFO 63503 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:69}] to 127.0.0.1:27017
+2020-01-19 13:34:27.182  INFO 63503 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2979330}
+2020-01-19 13:39:39.806  INFO 63593 --- [           main] o.e.j.u.log          : Logging initialized @7732ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:39:40.943  INFO 63593 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:39:41.005  INFO 63593 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:70}] to 127.0.0.1:27017
+2020-01-19 13:39:41.011  INFO 63593 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3544061}
+2020-01-19 13:40:26.027  INFO 63677 --- [           main] o.e.j.u.log          : Logging initialized @7907ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:40:27.169  INFO 63677 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:40:27.228  INFO 63677 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:71}] to 127.0.0.1:27017
+2020-01-19 13:40:27.232  INFO 63677 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2756992}
+2020-01-19 13:40:47.985  INFO 63764 --- [           main] o.e.j.u.log          : Logging initialized @8346ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:40:49.123  INFO 63764 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:40:49.184  INFO 63764 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:72}] to 127.0.0.1:27017
+2020-01-19 13:40:49.188  INFO 63764 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2758875}
+2020-01-19 13:44:34.074  INFO 62282 --- [qtp555847585-27] s.wx                 : weixin access token {:access_token 29_oa28Ac-ubr036UVy_5gTxfnpjdujB8ihWM-0tmtd17otSIiDq0bpUXJGz64C_ezuczUx1_V-1egyPV_51kwzHtUAXqL4MKgd6YiseYqtKmPS-hD-0qF0sqpMxi7vNIMDudzh-aCwEqoZTB5sDMNbAIASBC, :expires_in 7200}
+2020-01-19 13:45:46.961  INFO 63853 --- [           main] o.e.j.u.log          : Logging initialized @9486ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:45:48.140  INFO 63853 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:45:48.201  INFO 63853 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:73}] to 127.0.0.1:27017
+2020-01-19 13:45:48.206  INFO 63853 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2570925}
+2020-01-19 13:48:17.973  INFO 63938 --- [           main] o.e.j.u.log          : Logging initialized @7938ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:48:19.158  INFO 63938 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:48:19.228  INFO 63938 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:74}] to 127.0.0.1:27017
+2020-01-19 13:48:19.234  INFO 63938 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3117840}
+2020-01-19 13:48:33.906  INFO 64022 --- [           main] o.e.j.u.log          : Logging initialized @7990ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:48:35.041  INFO 64022 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:48:35.100  INFO 64022 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:75}] to 127.0.0.1:27017
+2020-01-19 13:48:35.105  INFO 64022 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2837568}
+2020-01-19 13:49:08.882  INFO 64106 --- [           main] o.e.j.u.log          : Logging initialized @7747ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:49:10.054  INFO 64106 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:49:10.116  INFO 64106 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:76}] to 127.0.0.1:27017
+2020-01-19 13:49:10.121  INFO 64106 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2644155}
+2020-01-19 13:49:10.739  INFO 64106 --- [           main] s.wx                 : weixin access token {:access_token 29_-jPTUNxvrUGVQpqJXXfp0qrSEHF6ZMw8WYwtFa7fQ5u6th_JdwaM7fyO-r8XvVSLzeFgeQj8Jttd39fw6JnrcwtOG2xLmpZ0FDWwt43K74Oo22CNufqQlp9fzeh4DjZVHkGtPrZLe-xYdn0qSYYjAFALRR, :expires_in 7200}
+2020-01-19 13:50:40.097  INFO 62282 --- [qtp555847585-27] s.wx                 : wx redirect url formed, start with : http://htzjbj.natappfree.cc
+2020-01-19 13:57:40.131  INFO 64194 --- [           main] o.e.j.u.log          : Logging initialized @7743ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:57:41.286  INFO 64194 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:57:41.348  INFO 64194 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:77}] to 127.0.0.1:27017
+2020-01-19 13:57:41.352  INFO 64194 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2738496}
+2020-01-19 13:57:42.506  INFO 64194 --- [           main] s.wx                 : weixin access token {:access_token 29_CQ9kvLlrWVR764Rj3YWsBol2Q1NK4g8AF3jAD6t97gDm2AtpAA9zcAve5-pvc_tszVDQD_xU8DJrcqLze58gO8WQGhMZ83XmvrMc_B5wWYaEQu4oiCE5Z1UFIHxM2Ibk8UVlC5FYCZbkSoTkMERiACASKX, :expires_in 7200}
+2020-01-19 13:57:42.800 ERROR 64194 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: 4gjaY24ce-9d ]
+2020-01-19 13:58:39.381  INFO 64278 --- [           main] o.e.j.u.log          : Logging initialized @7948ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 13:58:40.589  INFO 64278 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 13:58:40.651  INFO 64278 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:78}] to 127.0.0.1:27017
+2020-01-19 13:58:40.656  INFO 64278 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3153130}
+2020-01-19 13:58:41.246  INFO 64278 --- [           main] s.wx                 : weixin access token {:access_token 29_DBndzv1gLE5hSpkJyICbiLr-LJIBwGtfWl6fS4n07-xAZANqobiccCi1qySc1l4zQPTI25ck52Z_XQYBK-Jn8f9Be_ITmREmN16qC_L-Bn67Xsi5yvM0BxpTIIpW7bDPKkzi-tU_wjwOTE5CNSEdAIAXCO, :expires_in 7200}
+2020-01-19 13:58:41.533 ERROR 64278 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: 5gjabawgE-PzZReA ]
+2020-01-19 14:00:22.348  INFO 64362 --- [           main] o.e.j.u.log          : Logging initialized @7929ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:00:23.507  INFO 64362 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:00:23.568  INFO 64362 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:79}] to 127.0.0.1:27017
+2020-01-19 14:00:23.573  INFO 64362 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2578258}
+2020-01-19 14:00:24.236  INFO 64362 --- [           main] s.wx                 : weixin access token {:access_token 29_yiCoXtrq23n2l3STPdO6uPqwJ4IrZI0ewpoxje0d5hW-0VjGCOpD59_mL5Ayx5tc8az1iDGG9LcEg3ENedf9NCb9-7tAXqtxyN4I8Y_zMW6-NekWyJtoZijAemyp9bMtkAw5iFRoaLeHZp3cXKFbAIALYT, :expires_in 7200}
+2020-01-19 14:00:24.493 ERROR 64362 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: .GjaHFyFe-SXJIra ]
+2020-01-19 14:28:08.496  INFO 64529 --- [           main] o.e.j.u.log          : Logging initialized @7791ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:28:09.697  INFO 64529 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:28:09.758  INFO 64529 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:80}] to 127.0.0.1:27017
+2020-01-19 14:28:09.762  INFO 64529 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2965224}
+2020-01-19 14:28:10.435  INFO 64529 --- [           main] s.wx                 : weixin access token {:access_token 29_DKe5YiREBR0tnk9rWXfimlfdMA4yZcXg8C-f-AOYoQc5qfvcv50o6BHbmEhuOIAI7e7W8LYN8GLmd8GwreNFBHG5_vkP9YaRH1rxT2e9Sn_5nSTnSIpscK4kfeuMSHe9n-MEg2NqubIhYrlJIXEgAHAUJQ, :expires_in 7200}
+2020-01-19 14:28:10.699 ERROR 64529 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: NGjaP34ce-fzp33 ]
+2020-01-19 14:29:05.155  INFO 64614 --- [           main] o.e.j.u.log          : Logging initialized @7759ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:29:06.296  INFO 64614 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:29:06.355  INFO 64614 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:81}] to 127.0.0.1:27017
+2020-01-19 14:29:06.360  INFO 64614 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2987516}
+2020-01-19 14:29:08.152  INFO 64614 --- [           main] s.wx                 : weixin access token {:access_token 29_yzvkYbSS1DiK9Y8bdASgATUbtv355qkSWfK8cWXCKzpo6o73-Z-NBXHAxYFriEdZyCP-BARHeF6BV8msdF4G18Cnv5ukwTEjWXWqdHJRsv3XXm-lXoayTPIdFTISh0zylOGbwv14fncQk7d-QPJfAJAWVP, :expires_in 7200}
+2020-01-19 14:29:08.494 ERROR 64614 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: oGjaAa0gE-xS8K8a ]
+2020-01-19 14:29:51.619  INFO 64698 --- [           main] o.e.j.u.log          : Logging initialized @7749ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:29:52.756  INFO 64698 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:29:52.815  INFO 64698 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:82}] to 127.0.0.1:27017
+2020-01-19 14:29:52.820  INFO 64698 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2927426}
+2020-01-19 14:29:53.560  INFO 64698 --- [           main] s.wx                 : weixin access token {:access_token 29_kgpQFhayzHXz5MjTJWUigLgh9jlLfKaqjTgLM3qbm1TexJSrhbIrXdggS66xEM05ZGKJRY_fv2wOv0W7pyhcQ1OR8kFRiKaiqf7FQ3kyCq-kdPVJyX2Z98Lqmngm0I7_EbxDYY0yZnEXMwWjDKQcADAHOU, :expires_in 7200}
+2020-01-19 14:29:53.882 ERROR 64698 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: oGjapFwgE-OuIv6 ]
+2020-01-19 14:31:35.228  INFO 64784 --- [           main] o.e.j.u.log          : Logging initialized @7803ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:31:36.379  INFO 64784 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:31:36.438  INFO 64784 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:83}] to 127.0.0.1:27017
+2020-01-19 14:31:36.443  INFO 64784 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2888651}
+2020-01-19 14:31:37.046  INFO 64784 --- [           main] s.wx                 : weixin access token {:access_token 29_5yPS8Cq0TGmryFsP4H4yv4GRSrR-BmBtyvkAXbwLlQ_sgd8aAFQxC5V7jyVbc7Nz8ZcGqDfWPAEVl5KB_c4C6H_Mr9CUeK6SQ84DCn11q5QmIg3AOAseWg14H2tQflp3xJ2fSG61Mc-Nbf7CHLTgAHAPTB, :expires_in 7200}
+2020-01-19 14:31:37.437 ERROR 64784 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: pGja07aLRa-uq_8Va ]
+2020-01-19 14:35:10.433  INFO 64876 --- [           main] o.e.j.u.log          : Logging initialized @7740ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:35:11.592  INFO 64876 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:35:11.652  INFO 64876 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:84}] to 127.0.0.1:27017
+2020-01-19 14:35:11.657  INFO 64876 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2702884}
+2020-01-19 14:35:12.595  INFO 64876 --- [           main] s.wx                 : weixin access token {:access_token 29_2cs2CxcoGE_u-J5hWXfimlfdMA4yZcXg8C-f-A_p-4ENEFLEEZB72fb1MkHJ1osVxYpQwWMavNos_hG0g2n95P-XostrpjDo4r8bgQ5J0ssZdFovYMdZeT0kgpsP-Ch8NhFcn1YLZqO4GJ66QMXcAJALHS, :expires_in 7200}
+2020-01-19 14:35:12.921 ERROR 64876 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: rGjaAa0gE-if3YYa ]
+2020-01-19 14:35:44.181 ERROR 62282 --- [qtp555847585-24] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: rGjaFMwgE-LYqwuA ]
+2020-01-19 14:37:16.434 ERROR 62282 --- [qtp555847585-29] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: sGjaFKXIRa-S1IjRA ]
+2020-01-19 14:37:56.574  INFO 64966 --- [           main] o.e.j.u.log          : Logging initialized @7764ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:37:57.737  INFO 64966 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:37:57.800  INFO 64966 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:85}] to 127.0.0.1:27017
+2020-01-19 14:37:57.804  INFO 64966 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2755095}
+2020-01-19 14:37:58.494  INFO 64966 --- [           main] s.wx                 : weixin access token {:access_token 29_FOx0H7h-gIjWDpQWJWUigLgh9jlLfKaqjTgLM2YCz6rw6b8Odr9QnTGqW_LKjCmkDbPAR-SqSVWcKxB1kYsv42Pdok-BMhHB4lJH4SZLqNQTj6_m8vPKubkLTGdwFkKrNxfvsgPKfc38OujVKHZiACADAS, :expires_in 7200}
+2020-01-19 14:37:58.766 ERROR 64966 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: sGjaY7aLRa-RBkOOa ]
+2020-01-19 14:40:22.209  INFO 65054 --- [           main] o.e.j.u.log          : Logging initialized @7761ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:40:23.342  INFO 65054 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:40:23.399  INFO 65054 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:86}] to 127.0.0.1:27017
+2020-01-19 14:40:23.404  INFO 65054 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2827971}
+2020-01-19 14:40:24.143  INFO 65054 --- [           main] s.wx                 : weixin access token {:access_token 29_5h7sfOryYJLpVhHa3UEiQ1awdGJNZFmuE_KVbo3UPWDiKYQNCrham479QK6assBA8TD5j61N5pBJ6H_bxTl2FZfaKYZfkrvq9c8lZrhOFiRJV4WM6ry3aNXcqcI4CYk40DVexydmBdZqYefWMCIaACAZPV, :expires_in 7200}
+2020-01-19 14:40:24.525 ERROR 65054 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: TGjay24ce-wHMu.A ]
+2020-01-19 14:42:58.729  INFO 65140 --- [           main] o.e.j.u.log          : Logging initialized @7867ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:42:59.890  INFO 65140 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:42:59.949  INFO 65140 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:87}] to 127.0.0.1:27017
+2020-01-19 14:42:59.954  INFO 65140 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2969073}
+2020-01-19 14:43:00.932  INFO 65140 --- [           main] s.wx                 : weixin access token {:access_token 29_oGGAaqWy5oeylSg-CQKbqvdtdWGAjgncsqxNReNBL_rPKYTf2cU13Iu3Zxfc9Ryw-otURhLUerTMlbjQ3b5hJtADm42HlIIuBn0LuaA-35Rogb4_5hAnxk43ygirhqxybpr70UnWDmxqLVZFXKFcAEAJWR, :expires_in 7200}
+2020-01-19 14:43:01.222 ERROR 65140 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: vGjahNwgE-My5_RA ]
+2020-01-19 14:43:01.895 ERROR 65140 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: vGjage8FE-yZ2via ]
+2020-01-19 14:44:33.204  INFO 65226 --- [           main] o.e.j.u.log          : Logging initialized @7741ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:44:34.357  INFO 65226 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:44:34.416  INFO 65226 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:88}] to 127.0.0.1:27017
+2020-01-19 14:44:34.421  INFO 65226 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2698252}
+2020-01-19 14:44:35.608  INFO 65226 --- [           main] s.wx                 : weixin access token {:access_token 29_xZ1y00vcC5oKOpQsF04UJwaARmJtz-UNJLL3hqkUuO0xcahq6mQMTwdHxScHOUPI553I0SVlLTfgXc3M4yQKFHXpK33J-DajWBRN2QmF4kcoUCtRqnnoYWBubYIBWWhAFAIDD, :expires_in 7200}
+2020-01-19 14:44:35.927 ERROR 65226 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: VGjaZRLnRa-ef7XYa ]
+2020-01-19 14:44:36.231 ERROR 65226 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: VGja4zXMe-44dRoA ]
+2020-01-19 14:56:44.039  INFO 65329 --- [           main] o.e.j.u.log          : Logging initialized @7928ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:56:45.196  INFO 65329 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:56:45.259  INFO 65329 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:89}] to 127.0.0.1:27017
+2020-01-19 14:56:45.265  INFO 65329 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3028539}
+2020-01-19 14:56:46.010  INFO 65329 --- [           main] s.wx                 : weixin access token {:access_token 29_WXGnuNDCJXRVAR0VfgkmoEbicSAmQ_4VnUEAsjafwWAsmbpUbnldzu_4qKDqvkcMOsdXZyYLUEUVn2vw3AFSW-De4bNDcLg5AxXcJoI-lGXkWg3-wppoqyhA0MlgDw4tUIztzUt338aa2eJxTGDdAAALYV, :expires_in 7200}
+2020-01-19 14:56:46.547 ERROR 65329 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: 3GjaQ0yFe-f5m1Ga ]
+2020-01-19 14:56:46.823 ERROR 65329 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: 3GjaAGwgE-lItAlA ]
+2020-01-19 14:58:11.222  INFO 65414 --- [           main] o.e.j.u.log          : Logging initialized @7865ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 14:58:12.390  INFO 65414 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 14:58:12.453  INFO 65414 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:90}] to 127.0.0.1:27017
+2020-01-19 14:58:12.457  INFO 65414 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2523278}
+2020-01-19 14:58:13.080  INFO 65414 --- [           main] s.wx                 : weixin access token {:access_token 29_LTRXCEEWSOQ2fm0ye1yUmubEOhYCMNEEeTjLqGS2N9g1S2T7O3ZJTVfHPuQaoivXgbvQRnYxc85-higwXfSyn6TGPs3K9nDGjsMsqgI5wkivp5Mo9hFWCI7XvXPA2a7gGaFL7cNhag3JYiQdCVAdAJAHAF, :expires_in 7200}
+2020-01-19 14:58:13.331 ERROR 65414 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: 5GjadzyFe-rSRueA ]
+2020-01-19 14:58:13.885 ERROR 65414 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: 5Gja3B0gE-ypqVza ]
+2020-01-19 14:59:12.736  WARN 62282 --- [qtp555847585-27] o.e.j.s.HttpChannel  : /invalid
+java.lang.NullPointerException: Response map is nil
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:100)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 15:01:13.622  INFO 65500 --- [           main] o.e.j.u.log          : Logging initialized @7800ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:01:14.762  INFO 65500 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:01:14.823  INFO 65500 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:91}] to 127.0.0.1:27017
+2020-01-19 15:01:14.827  INFO 65500 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2739901}
+2020-01-19 15:01:15.658  INFO 65500 --- [           main] s.wx                 : weixin access token {:access_token 29_P0un1Y05xach59IYuTTWYclIAPcj9UM1p5ZqFBQ9xWDk_CO0wGTRdebiHMqXXjfU7OPeyhP8PDz6Sc281ePpDUUHpqQvCo5a9VfGUmRESF4Y9R4l3cHuYMRNYkVCNi0YxyEVQxZGJRSAbx3RXGUbACASBP, :expires_in 7200}
+2020-01-19 15:01:16.306 ERROR 65500 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: ahjapz4ce-kym_8 ]
+2020-01-19 15:01:17.470 ERROR 65500 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: ahjaF8VhE-7fDOha ]
+2020-01-19 15:07:36.724  INFO 65603 --- [           main] o.e.j.u.log          : Logging initialized @7852ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:07:37.874  INFO 65603 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:07:37.936  INFO 65603 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:92}] to 127.0.0.1:27017
+2020-01-19 15:07:37.941  INFO 65603 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2538448}
+2020-01-19 15:07:38.588  INFO 65603 --- [           main] s.wx                 : weixin access token {:access_token 29_AkfiHllrVFC0DNs7KJqV-J7BCWujuqhdlpsDAsn9jJv6XGKrzLMigKiAm2C_MV1ekFKBgq1VJf9Qituft2BPkTsWNkfdEI5nitiJIkkJGZGyPk6M2AYVmyME7kmMYR9crYQSCOrVOipgaBztXMKhAJAJYW, :expires_in 7200}
+2020-01-19 15:07:38.871 ERROR 65603 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: dhjan7aLRa-7gz75 ]
+2020-01-19 15:07:39.121 ERROR 65603 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: dhjaGAwhE-ROgIWa ]
+2020-01-19 15:07:39.165  INFO 65603 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:93}] to 127.0.0.1:27017
+2020-01-19 15:07:39.215  INFO 65603 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:08:22.412  INFO 65687 --- [           main] o.e.j.u.log          : Logging initialized @7753ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:08:23.552  INFO 65687 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:08:23.612  INFO 65687 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:94}] to 127.0.0.1:27017
+2020-01-19 15:08:23.617  INFO 65687 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3104981}
+2020-01-19 15:08:24.214  INFO 65687 --- [           main] s.wx                 : weixin access token {:access_token 29_AGmzajpPjStNmsjU4WQ7AYb6xb5imuq_kVd89MMKjNp1_lhzv4S00-axPUN6C9sZi1nyHqSqr1viMkxpwQtZmKi3cng-1cgjDg3_4s0xRbGWiASdTZe_V1GSrCcMGP6tWg8BSXrSY2DtMkTvJERhAJAUPC, :expires_in 7200}
+2020-01-19 15:08:24.470 ERROR 65687 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: Dhjaf8VhE-a75UhA ]
+2020-01-19 15:08:24.724 ERROR 65687 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: DhjaG7yIRa-sdpsJa ]
+2020-01-19 15:08:24.761  INFO 65687 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:95}] to 127.0.0.1:27017
+2020-01-19 15:08:24.780 ERROR 65687 --- [           main] s.user               : user is already registered
+2020-01-19 15:10:26.988  INFO 65773 --- [           main] o.e.j.u.log          : Logging initialized @7691ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:10:28.140  INFO 65773 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:10:28.203  INFO 65773 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:96}] to 127.0.0.1:27017
+2020-01-19 15:10:28.207  INFO 65773 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2848807}
+2020-01-19 15:10:28.898  INFO 65773 --- [           main] s.wx                 : weixin access token {:access_token 29_k-g7652eVLkSqc7uQw5UaGFHugwMNCFczGgF_Qy_m8Fv-1XxjmlccX6_mi63yuzzrD_UYMNIpCESm5PjT69kNg4bmzCMPzj6YbcH0uDqzInSI3LTT6qz1F-Oc3ASJCaAEAFWP, :expires_in 7200}
+2020-01-19 15:10:29.170 ERROR 65773 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: Ehjam0yFe-UXwmoa ]
+2020-01-19 15:10:29.423 ERROR 65773 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: EhjaCDToRa-MlTjga ]
+2020-01-19 15:10:29.468  INFO 65773 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:97}] to 127.0.0.1:27017
+2020-01-19 15:10:29.525  INFO 65773 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:10:29.535 ERROR 65773 --- [           main] s.user               : user is already registered
+2020-01-19 15:12:02.934  INFO 65859 --- [           main] o.e.j.u.log          : Logging initialized @8018ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:12:04.122  INFO 65859 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:12:04.187  INFO 65859 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:98}] to 127.0.0.1:27017
+2020-01-19 15:12:04.193  INFO 65859 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3304919}
+2020-01-19 15:12:04.842  INFO 65859 --- [           main] s.wx                 : weixin access token {:access_token 29_CAJnCNSp9qWI4kYRuo61yChKfxR4uskZDaICpUCkNDCtKWQSTLFhmCGSLbQ7JbYdNNt05W-N803gkckwwyLESgLvrogHiqJMn3_hiHy77qwj2qlGwbFki2W8Bmzmz8teAWMPraR8eensEk_eTXNdAEAPTJ, :expires_in 7200}
+2020-01-19 15:12:05.166 ERROR 65859 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: FhjabawgE-0Ka3nA ]
+2020-01-19 15:12:05.514 ERROR 65859 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: FhjafTXIRa-iuGIGa ]
+2020-01-19 15:12:05.566  INFO 65859 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:99}] to 127.0.0.1:27017
+2020-01-19 15:12:05.637  INFO 65859 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:12:05.642 ERROR 65859 --- [           main] s.user               : user is already registered
+2020-01-19 15:14:38.584  INFO 65945 --- [           main] o.e.j.u.log          : Logging initialized @7905ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:14:39.734  INFO 65945 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:14:39.797  INFO 65945 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:100}] to 127.0.0.1:27017
+2020-01-19 15:14:39.801  INFO 65945 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2526661}
+2020-01-19 15:14:40.554  INFO 65945 --- [           main] s.wx                 : weixin access token {:access_token 29_yy5r4K27uMzRkFjlEoYhsQVZPvxf6VryA2j5vgLT0xh1dxM8DaeIKUpwyy_RGqLyLtzpowFAFxoTyWTnVIW-S36L4WFORgG4Cv_iZ1Sc0uLs67TempYOxaNGCMMTOKeAGAJEA, :expires_in 7200}
+2020-01-19 15:14:41.132 ERROR 65945 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: GhjauAwgE-X.gEda ]
+2020-01-19 15:14:41.459 ERROR 65945 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: GhjaeMuhE-SMEboa ]
+2020-01-19 15:14:41.503  INFO 65945 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:101}] to 127.0.0.1:27017
+2020-01-19 15:14:41.552  INFO 65945 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:14:41.558 ERROR 65945 --- [           main] s.user               : user is already registered
+2020-01-19 15:14:41.561  INFO 65945 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:16:12.456  INFO 66032 --- [           main] o.e.j.u.log          : Logging initialized @7770ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:16:13.602  INFO 66032 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:16:13.664  INFO 66032 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:102}] to 127.0.0.1:27017
+2020-01-19 15:16:13.669  INFO 66032 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2673542}
+2020-01-19 15:16:14.355  INFO 66032 --- [           main] s.wx                 : weixin access token {:access_token 29_VdEkeGzkpZjWRKXFbgJMU01VbZg-De0dVumUQSCvCpdPiEREf-J9WommIgn2Al0BXm5TNGEtH2XONTYIK59Eqcgbh0aW3EWkP3FpKZfJxL8o8iCLewJoH65H-R0MEMbABAIAI, :expires_in 7200}
+2020-01-19 15:16:15.163 ERROR 66032 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: HhjaiBwgE-ijr47a ]
+2020-01-19 15:16:15.490 ERROR 66032 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: Hhjahg8FE-JVzooa ]
+2020-01-19 15:16:15.536  INFO 66032 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:103}] to 127.0.0.1:27017
+2020-01-19 15:16:15.586  INFO 66032 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:16:15.591 ERROR 66032 --- [           main] s.user               : user is already registered
+2020-01-19 15:16:15.594  INFO 66032 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:16:56.321  INFO 66120 --- [           main] o.e.j.u.log          : Logging initialized @7721ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:16:57.463  INFO 66120 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:16:57.522  INFO 66120 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:104}] to 127.0.0.1:27017
+2020-01-19 15:16:57.527  INFO 66120 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2850560}
+2020-01-19 15:16:58.350  INFO 66120 --- [           main] s.wx                 : weixin access token {:access_token 29_jRABFULLWevV4wOhKJqV-J7BCWujuqhdlpsDArmXt0ejDxjs8oc1hUvygb-9DG9-RPreMtmcSavEipx4Dc6SZ7Rmtl4LqV1PsGJWgSY7fJ4j7nzlW-FtE9Lo5-FqHdh_3DJ7Bff77-ZWlTGSFFPjAGAUUE, :expires_in 7200}
+2020-01-19 15:16:58.672 ERROR 66120 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: Hhjah0yFe-XmVYMa ]
+2020-01-19 15:16:59.005 ERROR 66120 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: HhjaFl4FE-9eVFhA ]
+2020-01-19 15:16:59.052  INFO 66120 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:105}] to 127.0.0.1:27017
+2020-01-19 15:16:59.110  INFO 66120 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:16:59.116 ERROR 66120 --- [           main] s.user               : user is already registered
+2020-01-19 15:16:59.119  INFO 66120 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:18:19.797  INFO 66205 --- [           main] o.e.j.u.log          : Logging initialized @7751ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:18:20.936  INFO 66205 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:18:20.998  INFO 66205 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:106}] to 127.0.0.1:27017
+2020-01-19 15:18:21.003  INFO 66205 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2887730}
+2020-01-19 15:18:21.998  INFO 66205 --- [           main] s.wx                 : weixin access token {:access_token 29_jRxlNwDWJn5ptNM2cMSnJiVcD3N5fTaszYytiQr8yu_6NEyfeYVpTlCLMQagM-3EkKXF5H_K7a7J0sTRBIJO1MafeGU265cCUs3BM8ZnIRO70IRJqCQwB6DfDbA5fk21SrNL5rgoKsw5fMHjCFUcAIASVK, :expires_in 7200}
+2020-01-19 15:18:22.321 ERROR 66205 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: IhjagzyFe-zGirPA ]
+2020-01-19 15:18:22.568 ERROR 66205 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: Ihjaoo4FE-WsZuCA ]
+2020-01-19 15:18:22.613  INFO 66205 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:107}] to 127.0.0.1:27017
+2020-01-19 15:18:22.662  INFO 66205 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:18:22.666 ERROR 66205 --- [           main] s.user               : user is already registered
+2020-01-19 15:18:22.670  INFO 66205 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:19:51.547  INFO 66290 --- [           main] o.e.j.u.log          : Logging initialized @7908ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:19:52.693  INFO 66290 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:19:52.752  INFO 66290 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:108}] to 127.0.0.1:27017
+2020-01-19 15:19:52.757  INFO 66290 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2577247}
+2020-01-19 15:19:53.729  INFO 66290 --- [           main] s.wx                 : weixin access token {:access_token 29_TxDGCVtcnukyyaLD1q1c2OxNr4FJhP5N3uXhAWp7qd8cUkbTJWQI38ecqeQqoORKX31xdYUI0s704lrWzFI86HT9Yb0rQY-Bz8Ax7rt6Ofh95-fEetn9-xttkRO2l8G2SJfQXRZ-MS1pooxXGLSjAEAZEL, :expires_in 7200}
+2020-01-19 15:19:54.026 ERROR 66290 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: jhjaGfyFe-HpcERa ]
+2020-01-19 15:19:54.791 ERROR 66290 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: jhjaPh0FE-CI3c ]
+2020-01-19 15:19:54.838  INFO 66290 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:109}] to 127.0.0.1:27017
+2020-01-19 15:19:54.892  INFO 66290 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:19:54.898 ERROR 66290 --- [           main] s.user               : user is already registered
+2020-01-19 15:19:54.902  INFO 66290 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:21:02.309  INFO 66375 --- [           main] o.e.j.u.log          : Logging initialized @7851ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:21:03.462  INFO 66375 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:21:03.522  INFO 66375 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:110}] to 127.0.0.1:27017
+2020-01-19 15:21:03.527  INFO 66375 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2726636}
+2020-01-19 15:21:04.180  INFO 66375 --- [           main] s.wx                 : weixin access token {:access_token 29_W4talrLsv4JZv-6MOJali5Ya-6Cmat1FJNMg-uBYhIuQnaohvHeLKxnWSBc1w4w5EAY0B5P6UBUeXYTI_JS0VKGqMfIAjE3yVAQ-PcuLqYMJTzP4jfcg-njJH5gpVHidlt6vAxxPV8QTeht9YKObAGAJVZ, :expires_in 7200}
+2020-01-19 15:21:04.525 ERROR 66375 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: khjam6yFe-NciyBa ]
+2020-01-19 15:21:04.851 ERROR 66375 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: khja7Auge-lc0dHA ]
+2020-01-19 15:21:04.896  INFO 66375 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:111}] to 127.0.0.1:27017
+2020-01-19 15:21:04.945  INFO 66375 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:21:04.949 ERROR 66375 --- [           main] s.user               : user is already registered
+2020-01-19 15:21:04.952  INFO 66375 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:22:07.365  INFO 66459 --- [           main] o.e.j.u.log          : Logging initialized @8712ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:22:08.594  INFO 66459 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:22:08.674  INFO 66459 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:112}] to 127.0.0.1:27017
+2020-01-19 15:22:08.679  INFO 66459 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3036102}
+2020-01-19 15:22:09.337  INFO 66459 --- [           main] s.wx                 : weixin access token {:access_token 29_gUSr6QD5R5D1_MunlDzFXi2gxj-g729HT-hAPGgnuDgJ-mtltlo5dacpQqDkmrvnTmBXMNtTymLkYyoMnIDuDFcTDcXw_AE_y167hyuDvDdNpaZaGfWs6RJsPdZLw0od5mng9yzYa0Mj9FbLUGTaAGAAMZ, :expires_in 7200}
+2020-01-19 15:22:09.662 ERROR 66459 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: KhjajtXIRa-6sSxUA ]
+2020-01-19 15:22:09.978 ERROR 66459 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: KhjaHA0gE-dV4yDA ]
+2020-01-19 15:22:10.029  INFO 66459 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:113}] to 127.0.0.1:27017
+2020-01-19 15:22:10.116  INFO 66459 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:22:10.122 ERROR 66459 --- [           main] s.user               : user is already registered
+2020-01-19 15:22:10.126  INFO 66459 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:24:27.908  INFO 66548 --- [           main] o.e.j.u.log          : Logging initialized @7829ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:24:29.055  INFO 66548 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:24:29.114  INFO 66548 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:114}] to 127.0.0.1:27017
+2020-01-19 15:24:29.119  INFO 66548 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2634797}
+2020-01-19 15:24:29.840  INFO 66548 --- [           main] s.wx                 : weixin access token {:access_token 29_6nNsD6phdK6Qc6Mx4WQ7AYb6xb5imuq_kVd89DyyeCGERexKbNLP0rwHzdSqz8mtAcmGP0lk9eGn3ONvVAymqDUyOcDKFXS-6HKRJmD4zJ4Vuiq4LRI_ooWIQ7EMh7LMwN-71jRm1yt3OQhwCTPjAEAQHD, :expires_in 7200}
+2020-01-19 15:24:30.178 ERROR 66548 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: LhjafXXBe-YB6H4a ]
+2020-01-19 15:24:30.469 ERROR 66548 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: LhjaCj4FE-RYFkda ]
+2020-01-19 15:24:30.515  INFO 66548 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:115}] to 127.0.0.1:27017
+2020-01-19 15:24:30.568  INFO 66548 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:24:30.572 ERROR 66548 --- [           main] s.user               : user is already registered
+2020-01-19 15:24:30.576  INFO 66548 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:26:36.612  INFO 66635 --- [           main] o.e.j.u.log          : Logging initialized @7843ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:26:37.764  INFO 66635 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:26:37.825  INFO 66635 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:116}] to 127.0.0.1:27017
+2020-01-19 15:26:37.830  INFO 66635 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3129645}
+2020-01-19 15:26:38.534  INFO 66635 --- [           main] s.wx                 : weixin access token {:access_token 29_u4ecxdo5oqXYI0_KCg7qhCZfFydrDiIwRxV5yWEW37gVVkFcWxRa6jEDf00qPcI1PELhDVLi1hj1CjxrPwPl1BK6NpPjnF_9S82L_bNEZ7zlJrlGpy9ej9coDrE94ccVVXKW9RmSwhiGlWwrQHWaAHAKBQ, :expires_in 7200}
+2020-01-19 15:26:38.830 ERROR 66635 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: MhjaL8yFe-7VswVa ]
+2020-01-19 15:26:39.167 ERROR 66635 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: Mhjae24ce-4ftT ]
+2020-01-19 15:26:39.214  INFO 66635 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:117}] to 127.0.0.1:27017
+2020-01-19 15:26:39.270  INFO 66635 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:26:39.277 ERROR 66635 --- [           main] s.user               : user is already registered
+2020-01-19 15:26:39.281  INFO 66635 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:29:52.504  INFO 66720 --- [           main] o.e.j.u.log          : Logging initialized @7908ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:29:53.680  INFO 66720 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:29:53.740  INFO 66720 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:118}] to 127.0.0.1:27017
+2020-01-19 15:29:53.745  INFO 66720 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2621339}
+2020-01-19 15:29:54.526  INFO 66720 --- [           main] s.wx                 : weixin access token {:access_token 29_XomyPBo4gaV7xrv9fSGl6nbNl2cDGBhh4eu5dSOUX8dWrd5ij9qNmOe8-U7QHjPxgVKzPYLD79_NaDIXVr6oWC1doyJTJwtPgYDqI487TWOoqX75loIvf57lH5A42Se3HX88Sz9QRXUqD7FdHMUdACATYG, :expires_in 7200}
+2020-01-19 15:29:54.875 ERROR 66720 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: ohjaczXBe-VbQrVA ]
+2020-01-19 15:29:55.403 ERROR 66720 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: ohjaETXIRa-m6iGva ]
+2020-01-19 15:29:55.449  INFO 66720 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:119}] to 127.0.0.1:27017
+2020-01-19 15:29:55.516  INFO 66720 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:29:55.523 ERROR 66720 --- [           main] s.user               : user is already registered
+2020-01-19 15:29:55.528  INFO 66720 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:29:55.547  INFO 66720 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:31:31.351  INFO 66806 --- [           main] o.e.j.u.log          : Logging initialized @7812ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:31:32.499  INFO 66806 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:31:32.559  INFO 66806 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:120}] to 127.0.0.1:27017
+2020-01-19 15:31:32.564  INFO 66806 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2782085}
+2020-01-19 15:31:33.552  INFO 66806 --- [           main] s.wx                 : weixin access token {:access_token 29_DyM6wRgYy9tjv96qx9lzyTnqqQTuPJP1TlzpTRSmu7kYFwT1Pelw6bfVzRpWtKBbcYtFddt0qOPnu9Zd3Ich1OfCDZj8Hr-wU8zOMjfJD4cVbLfd2t4Qkq9zdZbhVXBFRggpvloYpB8OA3_9GDVbAGATQI, :expires_in 7200}
+2020-01-19 15:31:33.826 ERROR 66806 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: phjadZyFe-JNpvxa ]
+2020-01-19 15:31:34.328 ERROR 66806 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: phjaG7T.e-r.Fqoa ]
+2020-01-19 15:31:34.375  INFO 66806 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:121}] to 127.0.0.1:27017
+2020-01-19 15:31:34.438  INFO 66806 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:31:34.445 ERROR 66806 --- [           main] s.user               : user is already registered
+2020-01-19 15:31:34.450  INFO 66806 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:31:34.467 ERROR 66806 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:32:28.464  INFO 66891 --- [           main] o.e.j.u.log          : Logging initialized @7809ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:32:29.612  INFO 66891 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:32:29.672  INFO 66891 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:122}] to 127.0.0.1:27017
+2020-01-19 15:32:29.676  INFO 66891 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2694404}
+2020-01-19 15:32:30.346  INFO 66891 --- [           main] s.wx                 : weixin access token {:access_token 29_4G21Ode9585WrfEvqEhhvpmRAsr0YpES-ZKrF9cv3kk78bpT1bId4lYpyvGEiW5evTFJrxhd6Ztphz3PGEN_GHLxMdBcJI7Ccb3MOqkyFf8a_mXZ39MMJFNOwWZ5EO3ag2NhKx2YFpk3WPYGBPMcAGAJXU, :expires_in 7200}
+2020-01-19 15:32:30.674 ERROR 66891 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: PhjahNwgE-xv5jPA ]
+2020-01-19 15:32:30.975 ERROR 66891 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: PhjaBAwgE-CklcPa ]
+2020-01-19 15:32:31.021  INFO 66891 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:123}] to 127.0.0.1:27017
+2020-01-19 15:32:31.084  INFO 66891 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:32:31.091 ERROR 66891 --- [           main] s.user               : user is already registered
+2020-01-19 15:32:31.096  INFO 66891 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:32:31.114 ERROR 66891 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:34:00.552  INFO 66977 --- [           main] o.e.j.u.log          : Logging initialized @7802ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:34:01.716  INFO 66977 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:34:01.776  INFO 66977 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:124}] to 127.0.0.1:27017
+2020-01-19 15:34:01.781  INFO 66977 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2652710}
+2020-01-19 15:34:02.407  INFO 66977 --- [           main] s.wx                 : weixin access token {:access_token 29_He7pIBsNIV-pb6ivZhXc835_NOTMe2fz03ZzRYlon-QWgx3OhSdCzmaT0NsH9O_2zrsaUdvgSGnAGM5SKkRio4XXQpqQVnAMeQwsxWO7qcMrNPL2rkjxWo0Px6lrI3jv7z4PnsJNx5rrBzVcZNTbACAHVB, :expires_in 7200}
+2020-01-19 15:34:02.734 ERROR 66977 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: Qhja36yFe-8jsfsA ]
+2020-01-19 15:34:03.502 ERROR 66977 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: QhjauAwgE-F45CUa ]
+2020-01-19 15:34:03.547  INFO 66977 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:125}] to 127.0.0.1:27017
+2020-01-19 15:34:03.606  INFO 66977 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:34:03.611 ERROR 66977 --- [           main] s.user               : user is already registered
+2020-01-19 15:34:03.616  INFO 66977 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:34:03.632 ERROR 66977 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:36:30.474  INFO 67063 --- [           main] o.e.j.u.log          : Logging initialized @7808ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:36:31.635  INFO 67063 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:36:31.695  INFO 67063 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:126}] to 127.0.0.1:27017
+2020-01-19 15:36:31.700  INFO 67063 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2948539}
+2020-01-19 15:36:32.610  INFO 67063 --- [           main] s.wx                 : weixin access token {:access_token 29_zzkYvjz9eGFA1CYRBXoA2R6ns3VcnnkgCmlYd2SRF1aDwSYvuBsbrXNqjD8jHVfjdYtf7M9bF_aY2SBbRXMEVIgsKeSK7W9L95UY9Nn3X3dHPli3FtTvNCfsbXMBOCj5m2_lPdyvPBPs1BbwUHIeAFACPQ, :expires_in 7200}
+2020-01-19 15:36:32.931 ERROR 67063 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: Rhja36yFe-kGAFaa ]
+2020-01-19 15:36:33.256 ERROR 67063 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: Rhjakg8FE-HmMENa ]
+2020-01-19 15:36:33.297  INFO 67063 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:127}] to 127.0.0.1:27017
+2020-01-19 15:36:33.369  INFO 67063 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:36:33.375 ERROR 67063 --- [           main] s.user               : user is already registered
+2020-01-19 15:36:33.380  INFO 67063 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:36:33.398 ERROR 67063 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:36:33.425  INFO 67063 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 15:37:31.116  INFO 67215 --- [           main] o.e.j.u.log          : Logging initialized @7957ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:37:32.273  INFO 67215 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:37:32.334  INFO 67215 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:128}] to 127.0.0.1:27017
+2020-01-19 15:37:32.339  INFO 67215 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2587226}
+2020-01-19 15:37:33.064  INFO 67215 --- [           main] s.wx                 : weixin access token {:access_token 29_5onPahChZsgYNR9fAjFTlG2uTCZvgosV8O7V_LwR9o0tV4JVp86VN4pMNbfn_qun-fTu_Wes99PYBmXoPAQMVVOIdxHOdVXRt4_ZqQnM8sjuDJRhC2DUc67gP8D8urry39IZQYRCcWJc-T1yUQVgAGAKGL, :expires_in 7200}
+2020-01-19 15:37:33.351 ERROR 67215 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: shjazqLnRa-DhXK ]
+2020-01-19 15:37:34.065 ERROR 67215 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: shjaX6qNe-o.BAIA ]
+2020-01-19 15:37:34.107  INFO 67215 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:129}] to 127.0.0.1:27017
+2020-01-19 15:37:34.173  INFO 67215 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:37:34.181 ERROR 67215 --- [           main] s.user               : user is already registered
+2020-01-19 15:37:34.186  INFO 67215 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:37:34.204 ERROR 67215 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:37:34.210  INFO 67215 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 15:37:34.214 ERROR 67215 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 15:38:11.976  INFO 67301 --- [           main] o.e.j.u.log          : Logging initialized @7806ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:38:13.136  INFO 67301 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:38:13.197  INFO 67301 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:130}] to 127.0.0.1:27017
+2020-01-19 15:38:13.202  INFO 67301 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3072175}
+2020-01-19 15:38:14.122  INFO 67301 --- [           main] s.wx                 : weixin access token {:access_token 29_6JK2sE0d_KJv-ZCABXoA2R6ns3VcnnkgCmlYd7f3T6lGjvqKEU39JG9DXVhq3gnqbdhLNVw17IeBLSUo6DO2RzjITvOk9_Uocsc7eLoIBvJXgbm-ZqopRSiFLe2-tA9OYw4ZeRL8xpaufl-6YAEaAHACEI, :expires_in 7200}
+2020-01-19 15:38:14.454 ERROR 67301 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: ShjaE24ce-fpvn3 ]
+2020-01-19 15:38:15.382 ERROR 67301 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: ShjaeMuhE-WkRIqA ]
+2020-01-19 15:38:15.430  INFO 67301 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:131}] to 127.0.0.1:27017
+2020-01-19 15:38:15.498  INFO 67301 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:38:15.503 ERROR 67301 --- [           main] s.user               : user is already registered
+2020-01-19 15:38:15.506  INFO 67301 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:38:15.523 ERROR 67301 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:38:15.528  INFO 67301 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 15:38:15.532 ERROR 67301 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 15:39:22.201  INFO 67387 --- [           main] o.e.j.u.log          : Logging initialized @7952ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:39:23.399  INFO 67387 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:39:23.460  INFO 67387 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:132}] to 127.0.0.1:27017
+2020-01-19 15:39:23.465  INFO 67387 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2910425}
+2020-01-19 15:39:24.218  INFO 67387 --- [           main] s.wx                 : weixin access token {:access_token 29_hY8ZaXQz7VZpwxfAxuN1WCEOKECPueg_1eM7UApNynb5lMeXc5naH5rVmdY56IsJbrrq0NEEa4z5ZGnljhn8s8SUeNwkD1R60WpJIjVrPHu8Ufvgzj_BuU7Me4Xd9grutIQXRS8ohAlw3aXfVBMiACAEKV, :expires_in 7200}
+2020-01-19 15:39:24.495 ERROR 67387 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: thjaA6yFe-bvthLA ]
+2020-01-19 15:39:24.751 ERROR 67387 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: thjakRyIRa-OZdjCa ]
+2020-01-19 15:39:24.796  INFO 67387 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:133}] to 127.0.0.1:27017
+2020-01-19 15:39:24.844  INFO 67387 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 15:39:24.849 ERROR 67387 --- [           main] s.user               : user is already registered
+2020-01-19 15:39:24.853  INFO 67387 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 15:39:24.868 ERROR 67387 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 15:39:24.874  INFO 67387 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 15:39:24.878 ERROR 67387 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 15:39:24.881 ERROR 67387 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 15:50:22.943  INFO 62282 --- [qtp555847585-30] s.wx                 : weixin access token {:access_token 29_cPHXZImF2aeOl1b4y47qfA9v7hCn8UDVwjPyXjRFFDb4C1A9k50pqinafP_AAdMlriML0XhbZ8h3qraXANJdEDI0nIA2vl5-WTD6ohqgDt0qzJjPMdwxoe2VxvsMIrTO-cniLIQ7ZCb_JEDNTTNbAEAGGA, :expires_in 7200}
+2020-01-19 15:50:31.503  INFO 62282 --- [qtp555847585-25] s.wx                 : wx redirect url formed, start with : http://htzjbj.natappfree.cc
+2020-01-19 15:52:05.452  INFO 62282 --- [qtp555847585-30] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 15:52:56.059  INFO 62282 --- [qtp555847585-27] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 15:54:37.449  INFO 67689 --- [f5-c1716f066953] o.e.j.u.log          : Logging initialized @33401ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:54:38.728  INFO 67689 --- [f5-c1716f066953] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:54:38.797  INFO 67689 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:134}] to 127.0.0.1:27017
+2020-01-19 15:54:38.802  INFO 67689 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3281490}
+2020-01-19 15:54:45.354  INFO 67689 --- [f5-c1716f066953] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 15:54:45.395  INFO 67689 --- [f5-c1716f066953] .s.AbstractConnector : Started ServerConnector@59f27ce7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 15:54:45.395  INFO 67689 --- [f5-c1716f066953] o.e.j.s.Server       : Started @41350ms
+2020-01-19 15:55:35.305  INFO 67689 --- [tp1721374414-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 15:56:20.506  INFO 67689 --- [tp1721374414-28] s.wx                 : wx redirect url formed, start with : www.baidu.com
+2020-01-19 15:57:26.118  INFO 67689 --- [tp1721374414-26] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 15:58:27.751  INFO 67689 --- [tp1721374414-26] s.wx                 : weixin access token {:access_token 29_fg7wfH99OP4DlBJMDZ02ihsVPNrT09dJLmyvbzbKWyIdZhKog9rXkHc-H4od7rhXwtOwsMaRqf_h2NDfWeG-wTGyrXy446AvkX8tmcN6mE9xYxp-G9MdpC_P5gsBLTdAAAQAI, :expires_in 7200}
+2020-01-19 15:59:38.531  INFO 67715 --- [00-074b15f167cf] o.e.j.u.log          : Logging initialized @16844ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 15:59:38.853  INFO 67715 --- [00-074b15f167cf] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 15:59:38.910  INFO 67715 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:135}] to 127.0.0.1:27017
+2020-01-19 15:59:38.915  INFO 67715 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3189580}
+2020-01-19 15:59:42.835  INFO 67715 --- [00-074b15f167cf] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 15:59:42.874  INFO 67715 --- [00-074b15f167cf] .s.AbstractConnector : Started ServerConnector@4ab05082{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 15:59:42.874  INFO 67715 --- [00-074b15f167cf] o.e.j.s.Server       : Started @21190ms
+2020-01-19 15:59:47.305  INFO 67715 --- [qtp710560546-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:00:53.913  INFO 67718 --- [96-67f91d414c35] o.e.j.u.log          : Logging initialized @21524ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:00:55.140  INFO 67718 --- [96-67f91d414c35] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:00:55.203  INFO 67718 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:136}] to 127.0.0.1:27017
+2020-01-19 16:00:55.209  INFO 67718 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3241579}
+2020-01-19 16:01:01.263  INFO 67718 --- [96-67f91d414c35] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:01:01.305  INFO 67718 --- [96-67f91d414c35] .s.AbstractConnector : Started ServerConnector@5602bfe{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:01:01.305  INFO 67718 --- [96-67f91d414c35] o.e.j.s.Server       : Started @28919ms
+2020-01-19 16:01:09.025  INFO 67718 --- [tp1274145000-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:02:33.702  INFO 67722 --- [31-3d5fa1b1601c] o.e.j.u.log          : Logging initialized @12561ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:02:34.981  INFO 67722 --- [31-3d5fa1b1601c] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:02:35.051  INFO 67722 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:137}] to 127.0.0.1:27017
+2020-01-19 16:02:35.058  INFO 67722 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3772293}
+2020-01-19 16:02:40.907  INFO 67722 --- [31-3d5fa1b1601c] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:02:40.949  INFO 67722 --- [31-3d5fa1b1601c] .s.AbstractConnector : Started ServerConnector@13e08c24{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:02:40.949  INFO 67722 --- [31-3d5fa1b1601c] o.e.j.s.Server       : Started @19809ms
+2020-01-19 16:02:44.847  INFO 67722 --- [ qtp84027040-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:04:17.545  INFO 67729 --- [e1-42d21f01db6f] o.e.j.u.log          : Logging initialized @18781ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:04:18.916  INFO 67729 --- [e1-42d21f01db6f] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:04:18.977  INFO 67729 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:138}] to 127.0.0.1:27017
+2020-01-19 16:04:18.983  INFO 67729 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3596252}
+2020-01-19 16:04:32.552  INFO 67729 --- [e1-42d21f01db6f] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:04:32.593  INFO 67729 --- [e1-42d21f01db6f] .s.AbstractConnector : Started ServerConnector@6c99d62a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:04:32.594  INFO 67729 --- [e1-42d21f01db6f] o.e.j.s.Server       : Started @33832ms
+2020-01-19 16:04:34.928  INFO 67729 --- [qtp375134624-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:05:22.462  INFO 67729 --- [qtp375134624-29] s.wx                 : weixin access token {:access_token 29_zrRlEgwjYBsLKPqQKJqV-J7BCWujuqhdlpsDAr4VRP0XwaaWC2EA_ZmVxOTNTJYmQ_90dPZT5_oxa6UIjLM6gpTI9hPt4T-vrM5b1qQoyBplITwsANWZiql7V5C-Ez0NY_Nh58CpoTBhrBf1HMKdADARWU, :expires_in 7200}
+2020-01-19 16:05:46.939  INFO 67729 --- [qtp375134624-24] s.wx                 : weixin access token {:access_token 29_9VAcL5vhHs5OKFk1yBwHWf9E6Gp9fe6K0SylYqwwZ2p1dUZnJk7Ts7haIeerRgn-L7rNoc7ebIQ29BRmBZV0tAQLoKAKBusmVsI2cOYvJTwMJQ5xcfVNJQlj-f4QTOhAGATWR, :expires_in 7200}
+2020-01-19 16:06:12.854  INFO 67729 --- [qtp375134624-23] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:07:14.152 ERROR 67729 --- [qtp375134624-26] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: dHjam0yFe-M402ya ]
+2020-01-19 16:07:15.004 ERROR 67729 --- [qtp375134624-28] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: dHjafDYIRa-yyHUEa ]
+2020-01-19 16:07:15.990 ERROR 67729 --- [qtp375134624-26] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: dHja46aLRa-XkURpA ]
+2020-01-19 16:07:19.052 ERROR 67729 --- [qtp375134624-28] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: dHjafDYIRa-fqPoPa ]
+2020-01-19 16:07:27.565  INFO 67729 --- [qtp375134624-26] s.wx                 : weixin access token {:access_token 29_e_j4dos7qGgHZ_LqcMSnJiVcD3N5fTaszYytifSmLRflzPA8bn9wxzplTKgblRf16I0iBdk6G5giCRR-LG0KEtP7vTNIf_VdI1GGVzIoFfYdVI4LYEA4gU_30G0AJZitNVDCjWBKQQA35YSEBWSeABAPKG, :expires_in 7200}
+2020-01-19 16:07:52.637 ERROR 67729 --- [qtp375134624-29] s.wx                 : get weixin access token (by code) error SSL peer shut down incorrectly
+2020-01-19 16:10:01.983  INFO 67729 --- [qtp375134624-22] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:10:21.123 ERROR 67729 --- [qtp375134624-24] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: EHjadzXBe-_KGGPa ]
+2020-01-19 16:14:09.955  INFO 67729 --- [qtp375134624-23] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:14:29.524  INFO 67729 --- [qtp375134624-22] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:14:29.525  WARN 67729 --- [qtp375134624-22] o.e.j.s.HttpChannel  : /wx/get_auth_link
+java.lang.NullPointerException: Response map is nil
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:100)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 16:14:29.563  WARN 67729 --- [qtp375134624-29] o.e.j.s.HttpChannel  : /favicon.ico
+java.lang.NullPointerException: Response map is nil
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:100)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 16:14:38.176  INFO 67729 --- [qtp375134624-31] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:14:38.176  WARN 67729 --- [qtp375134624-31] o.e.j.s.HttpChannel  : /wx/get_auth_link
+java.lang.NullPointerException: Response map is nil
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:100)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.util.servlet$update_servlet_response.invokeStatic(servlet.clj:95)
+	at ring.util.servlet$update_servlet_response.invoke(servlet.clj:91)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:28)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 16:14:55.215  INFO 67729 --- [qtp375134624-33] s.wx                 : wx redirect url formed, start with : http://99w5ej.natappfree.cc
+2020-01-19 16:16:20.618  INFO 67729 --- [qtp375134624-29] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:16:54.928  INFO 67729 --- [qtp375134624-23] s.wx                 : weixin access token {:access_token 29_XdEh3HpHYc8YkZ2PbgJMU01VbZg-De0dVumUQfj5T_EcnTmbU1b1Jwtl0UUT_uqRy9LtaZs2jC73OosxHxvc8TK9kAhhPh3jDA39a2q5_QEqMjjg9-gtXYKDf3SqKdiNw7_EoiRWcd5VcFMEZUTbABAGBA, :expires_in 7200}
+2020-01-19 16:17:31.137  INFO 67729 --- [qtp375134624-23] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:18:42.517  INFO 67830 --- [e6-24a36a3caead] o.e.j.u.log          : Logging initialized @42903ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:18:43.785  INFO 67830 --- [e6-24a36a3caead] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:18:43.851  INFO 67830 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:139}] to 127.0.0.1:27017
+2020-01-19 16:18:43.858  INFO 67830 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3752729}
+2020-01-19 16:18:52.061  INFO 67830 --- [e6-24a36a3caead] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:18:52.109  INFO 67830 --- [e6-24a36a3caead] .s.AbstractConnector : Started ServerConnector@6e691c68{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:18:52.109  INFO 67830 --- [e6-24a36a3caead] o.e.j.s.Server       : Started @52497ms
+2020-01-19 16:18:58.701  INFO 67830 --- [tp1432903922-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:22:01.508  INFO 67830 --- [tp1432903922-22] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:22:02.806  INFO 67830 --- [tp1432903922-24] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:22:03.822  INFO 67830 --- [tp1432903922-27] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:22:07.900  INFO 67830 --- [tp1432903922-24] s.wx                 : weixin access token {:access_token 29_9r6GxM0n8PKVOnYOkeeemGG3HjOXLBKKkaENH3wXgamGXCXvmpGhMTrPQzr9QBzKVhnHVirvPg7jQLqjnHAH_jzCmNS9K8Q0S779xeUJXCd3sdAZpK-1Ig8_wmQQCJaABAHTA, :expires_in 7200}
+2020-01-19 16:22:15.633  INFO 67830 --- [tp1432903922-27] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:23:47.063  INFO 67830 --- [tp1432903922-22] s.wx                 : wx access token success
+2020-01-19 16:24:04.183  INFO 67830 --- [tp1432903922-32] s.wx                 : wx access token success
+2020-01-19 16:24:32.609  INFO 67830 --- [tp1432903922-29] s.wx                 : wx access token success
+2020-01-19 16:25:20.351  INFO 67830 --- [tp1432903922-32] s.wx                 : wx access token success
+2020-01-19 16:26:36.504  INFO 67830 --- [tp1432903922-27] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:27:53.954  INFO 67847 --- [4a-29cdf96f80b9] o.e.j.u.log          : Logging initialized @12229ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:27:55.188  INFO 67847 --- [4a-29cdf96f80b9] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:27:55.252  INFO 67847 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:140}] to 127.0.0.1:27017
+2020-01-19 16:27:55.258  INFO 67847 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3373359}
+2020-01-19 16:27:59.769  INFO 67847 --- [4a-29cdf96f80b9] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:27:59.811  INFO 67847 --- [4a-29cdf96f80b9] .s.AbstractConnector : Started ServerConnector@49f2f7b3{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:27:59.811  INFO 67847 --- [4a-29cdf96f80b9] o.e.j.s.Server       : Started @18088ms
+2020-01-19 16:28:05.439  INFO 67847 --- [qtp106628173-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:28:19.283  INFO 67847 --- [qtp106628173-22] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:29:21.296  INFO 67847 --- [qtp106628173-28] n.handler            : 131231
+2020-01-19 16:29:21.297  INFO 67847 --- [qtp106628173-28] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:29:40.766  INFO 67847 --- [qtp106628173-24] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:29:40.767  INFO 67847 --- [qtp106628173-24] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:33:50.741  INFO 67847 --- [qtp106628173-28] s.wx                 : weixin access token {:access_token 29_PujXI1BB79R3MFlGZnW2q8xHegoGGH_Y4G4AqqsSmNyIE3Cr9juaR9GjtQzxw69TMSm4N-wmvdWf6aE3QTlp0dmfznluQNqpwEI8m-4jXQC_dTgVZxF3pFVoVXTCkT65ZxRvOCwzD7__jlrbJTQhABAFPM, :expires_in 7200}
+2020-01-19 16:34:24.237  INFO 67847 --- [qtp106628173-29] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:34:24.238  INFO 67847 --- [qtp106628173-29] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:34:38.565  INFO 67847 --- [qtp106628173-24] s.wx                 : wx access token success
+2020-01-19 16:36:40.948  INFO 67847 --- [qtp106628173-32] s.wx                 : wx access token success
+2020-01-19 16:42:19.010  INFO 69195 --- [35-00b9418bfeb4] o.e.j.u.log          : Logging initialized @16692ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:42:20.535  INFO 69195 --- [35-00b9418bfeb4] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:42:20.620  INFO 69195 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:141}] to 127.0.0.1:27017
+2020-01-19 16:42:20.627  INFO 69195 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4328527}
+2020-01-19 16:42:25.989  INFO 69195 --- [35-00b9418bfeb4] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:42:26.042  INFO 69195 --- [35-00b9418bfeb4] .s.AbstractConnector : Started ServerConnector@5c9bbee1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:42:26.042  INFO 69195 --- [35-00b9418bfeb4] o.e.j.s.Server       : Started @23727ms
+2020-01-19 16:42:28.440  INFO 69195 --- [tp1183961373-26] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:42:48.631  INFO 69195 --- [tp1183961373-23] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:42:48.634  INFO 69195 --- [tp1183961373-23] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:45:14.827  INFO 69795 --- [6c-f7d55b2c9a74] o.e.j.u.log          : Logging initialized @18914ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 16:45:16.388  INFO 69795 --- [6c-f7d55b2c9a74] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 16:45:16.480  INFO 69795 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:142}] to 127.0.0.1:27017
+2020-01-19 16:45:16.487  INFO 69795 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4158892}
+2020-01-19 16:45:19.644  INFO 69795 --- [6c-f7d55b2c9a74] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 16:45:19.689  INFO 69795 --- [6c-f7d55b2c9a74] .s.AbstractConnector : Started ServerConnector@7514886c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 16:45:19.689  INFO 69795 --- [6c-f7d55b2c9a74] o.e.j.s.Server       : Started @23779ms
+2020-01-19 16:45:32.558  INFO 69795 --- [tp1599256659-29] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 16:46:04.243  INFO 69795 --- [tp1599256659-25] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:46:04.246  INFO 69795 --- [tp1599256659-25] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:46:51.892  INFO 69795 --- [tp1599256659-28] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:46:51.893  INFO 69795 --- [tp1599256659-28] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:46:52.013  INFO 69795 --- [tp1599256659-23] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:46:52.014  INFO 69795 --- [tp1599256659-23] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:49:09.181  INFO 69795 --- [tp1599256659-29] n.handler            : http://xpvvxj.natappfree.cc
+2020-01-19 16:49:09.182  INFO 69795 --- [tp1599256659-29] s.wx                 : wx redirect url formed, start with : http://xpvvxj.natappfree.cc
+2020-01-19 16:50:05.810  INFO 69795 --- [tp1599256659-25] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 16:50:05.811  INFO 69795 --- [tp1599256659-25] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 16:50:31.410  INFO 69795 --- [tp1599256659-28] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 16:50:31.411  INFO 69795 --- [tp1599256659-28] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 16:51:25.687  INFO 69795 --- [tp1599256659-28] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 16:51:25.687  INFO 69795 --- [tp1599256659-28] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 16:52:10.228  INFO 69795 --- [tp1599256659-37] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 16:52:10.229  INFO 69795 --- [tp1599256659-37] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 16:52:38.428  INFO 69795 --- [tp1599256659-38] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 16:52:38.429  INFO 69795 --- [tp1599256659-38] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 16:52:40.995  INFO 69795 --- [tp1599256659-23] s.wx                 : wx access token success
+2020-01-19 16:52:58.912  INFO 69795 --- [tp1599256659-38] s.wx                 : weixin access token {:access_token 29_NFXnUX_SP2fY4Sc-5GB82Ndx9PW-1nU_7a0OzHw_hfTWlI1BqFTaJaVsUU6DbFTR9dpWRfmVXJLvdHOrWAl5VWKHUqZNG9DEPdLSWbP_xoqvk68XjbP6UvOfLcnPRXpbHzH8s6CgH6kdblUlYKLeAJAGST, :expires_in 7200}
+2020-01-19 16:53:39.381 ERROR 69795 --- [tp1599256659-33] s.wx                 : wx access token failure, errcode: 40163  errmsg:  code been used, hints: [ req_id: 0Hjah6yFe-VhAI5a ]
+2020-01-19 17:03:14.985  INFO 71410 --- [e9-c38109287edd] o.e.j.u.log          : Logging initialized @16477ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 17:03:16.400  INFO 71410 --- [e9-c38109287edd] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 17:03:16.464  INFO 71410 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:143}] to 127.0.0.1:27017
+2020-01-19 17:03:16.469  INFO 71410 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2988078}
+2020-01-19 17:03:17.834  INFO 71410 --- [e9-c38109287edd] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 17:03:17.875  INFO 71410 --- [e9-c38109287edd] .s.AbstractConnector : Started ServerConnector@1dc7df84{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 17:03:17.876  INFO 71410 --- [e9-c38109287edd] o.e.j.s.Server       : Started @19370ms
+2020-01-19 17:03:33.075  INFO 71410 --- [tp1214402510-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 17:03:33.598  INFO 71410 --- [tp1214402510-28] s.wx                 : weixin access token {:access_token 29_wIQZjZ1Rrfja1u-pVZ70hKO-lMKYJ-VHgKMfrWMPJ3TAUecZzWY-nPYeTynp9NohSC_JA6OXPh6cvjbEYZfYoUXv9EF1uZ0DFC6CegccfkgP7ya1pFFiRkpgh76_ABYcs-LUHfjJxOnCco7DFWSiAIAOFB, :expires_in 7200}
+2020-01-19 17:03:38.596  INFO 71410 --- [tp1214402510-23] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 17:03:38.599  INFO 71410 --- [tp1214402510-23] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 17:04:02.123  INFO 71410 --- [tp1214402510-24] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 17:04:02.124  INFO 71410 --- [tp1214402510-24] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 17:04:03.820  INFO 71410 --- [tp1214402510-26] s.wx                 : wx access token success
+2020-01-19 17:05:31.093  INFO 71440 --- [           main] o.e.j.u.log          : Logging initialized @8039ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 17:05:32.255  INFO 71440 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 17:05:32.319  INFO 71440 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:144}] to 127.0.0.1:27017
+2020-01-19 17:05:32.324  INFO 71440 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2561543}
+2020-01-19 17:05:32.975  INFO 71440 --- [           main] s.wx                 : weixin access token {:access_token 29_XbxkUsKHN2W2_asHbG8Uojn7uxXMQC1kCukc-GIdpyKdCD7cLiCqxQwFJOZdUrwVQT-kJ_0ibcvuaAMffK3Qap5R-drpfcH0_gpMioQPhNIxeDeOHiyI5pZLlRkVNVdACAOGO, :expires_in 7200}
+2020-01-19 17:05:33.313 ERROR 71440 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: cija36yFe-JYS5 ]
+2020-01-19 17:05:33.592 ERROR 71440 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: cijaGrXlRa-Wjvkoa ]
+2020-01-19 17:05:33.645  INFO 71440 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:145}] to 127.0.0.1:27017
+2020-01-19 17:05:33.666 ERROR 71440 --- [           main] s.user               : user is already registered
+2020-01-19 17:05:33.673 ERROR 71440 --- [           main] s.user               : user is already registered
+2020-01-19 17:05:33.677  INFO 71440 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 17:05:33.693 ERROR 71440 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 17:05:33.712  INFO 71440 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 17:05:33.716 ERROR 71440 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 17:05:33.719 ERROR 71440 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 17:07:13.024  INFO 71410 --- [tp1214402510-27] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:146}] to 127.0.0.1:27017
+2020-01-19 17:07:13.046 ERROR 71410 --- [tp1214402510-27] s.user               : user is already registered
+2020-01-19 17:07:18.235  INFO 71410 --- [tp1214402510-23] s.user               : user registered, openid is " tes1t "
+2020-01-19 17:07:24.988  INFO 71410 --- [tp1214402510-24] s.user               : user (openid "test") has logged in
+2020-01-19 17:08:00.308 ERROR 71410 --- [tp1214402510-23] s.user               : openid "tes342342t" is not registered
+2020-01-19 17:08:23.164  INFO 71410 --- [tp1214402510-23] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 17:08:30.542 ERROR 71410 --- [tp1214402510-22] s.user               : invalid openid or pid test 4
+2020-01-19 17:09:02.041  INFO 71410 --- [tp1214402510-23] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 17:10:04.787  INFO 71410 --- [tp1214402510-28] s.user               : new order created, openid: " test ", pid: " 2 "
+2020-01-19 17:37:31.984  INFO 73838 --- [5c-fb7a168eb05a] o.e.j.u.log          : Logging initialized @26811ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 17:37:33.374  INFO 73838 --- [5c-fb7a168eb05a] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 17:37:33.441  INFO 73838 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:148}] to 127.0.0.1:27017
+2020-01-19 17:37:33.446  INFO 73838 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2353428}
+2020-01-19 17:37:38.597  INFO 73838 --- [5c-fb7a168eb05a] o.e.j.s.Server       : jetty-9.4.22.v20191022; built: 2019-10-22T13:37:13.455Z; git: b1e6b55512e008f7fbdf1cbea4ff8a6446d1073b; jvm 1.8.0_212-b10
+2020-01-19 17:37:38.657  INFO 73838 --- [5c-fb7a168eb05a] .s.AbstractConnector : Started ServerConnector@1de3af6c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-01-19 17:37:38.657  INFO 73838 --- [5c-fb7a168eb05a] o.e.j.s.Server       : Started @33487ms
+2020-01-19 17:37:42.283  INFO 73838 --- [tp1077042020-28] o.e.j.u.TypeUtil     : JVM Runtime does not support Modules
+2020-01-19 17:38:51.184  INFO 73838 --- [tp1077042020-29] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 17:38:51.188  INFO 73838 --- [tp1077042020-29] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 17:39:00.322  INFO 73838 --- [tp1077042020-23] n.handler            : http://cq2dje.natappfree.cc
+2020-01-19 17:39:00.322  INFO 73838 --- [tp1077042020-23] s.wx                 : wx redirect url formed, start with : http://cq2dje.natappfree.cc
+2020-01-19 17:39:01.906  INFO 73838 --- [tp1077042020-27] s.wx                 : wx access token success
+2020-01-19 17:40:11.944  INFO 73838 --- [tp1077042020-29] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:149}] to 127.0.0.1:27017
+2020-01-19 17:40:11.975  INFO 73838 --- [tp1077042020-29] s.user               : user (openid "test") has logged in
+2020-01-19 17:42:13.663  INFO 73838 --- [5c-fb7a168eb05a] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 17:42:13.665  INFO 73838 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:3, serverValue:150}] to 127.0.0.1:27017
+2020-01-19 17:42:13.666  INFO 73838 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=509970}
+2020-01-19 17:43:37.175  INFO 73838 --- [5c-fb7a168eb05a] o.m.d.connection     : Opened connection [connectionId{localValue:4, serverValue:151}] to 127.0.0.1:27017
+2020-01-19 17:46:44.880  INFO 73838 --- [tp1077042020-29] s.user               : user (openid "test") has logged in
+2020-01-19 17:46:44.883 ERROR 73838 --- [tp1077042020-29] c.a.exception        : Cannot open <{"_id" #object[org.bson.types.ObjectId 0x6afe0d73 "5e2407ac3e521c073b9dd753"], "openid" "test", "sex" "1", "createTime" "2020-01-19 15:39:24", "updateTime" "2020-01-19 15:39:24"}> as an InputStream.
+java.lang.IllegalArgumentException: Cannot open <{"_id" #object[org.bson.types.ObjectId 0x6afe0d73 "5e2407ac3e521c073b9dd753"], "openid" "test", "sex" "1", "createTime" "2020-01-19 15:39:24", "updateTime" "2020-01-19 15:39:24"}> as an InputStream.
+	at clojure.java.io$fn__11444.invokeStatic(io.clj:167)
+	at clojure.java.io$fn__11444.invoke(io.clj:167)
+	at clojure.java.io$fn__11379$G__11372__11386.invoke(io.clj:69)
+	at clojure.java.io$fn__11440.invokeStatic(io.clj:165)
+	at clojure.java.io$fn__11440.invoke(io.clj:165)
+	at clojure.java.io$fn__11392$G__11368__11399.invoke(io.clj:69)
+	at clojure.java.io$reader.invokeStatic(io.clj:102)
+	at clojure.java.io$reader.doInvoke(io.clj:86)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at clojure.lang.AFn.applyToHelper(AFn.java:154)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invokeStatic(core.clj:667)
+	at clojure.core$slurp.invokeStatic(core.clj:6942)
+	at clojure.core$slurp.doInvoke(core.clj:6942)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at service.user$login.invokeStatic(user.clj:27)
+	at service.user$login.invoke(user.clj:20)
+	at newbiee.handler$fn__19975.invokeStatic(handler.clj:85)
+	at newbiee.handler$fn__19975.invoke(handler.clj:82)
+	at compojure.core$wrap_response$fn__3871.invoke(core.clj:158)
+	at compojure.core$wrap_route_middleware$fn__3855.invoke(core.clj:128)
+	at compojure.core$wrap_route_info$fn__3860.invoke(core.clj:137)
+	at compojure.core$wrap_route_matches$fn__3864.invoke(core.clj:146)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at compojure.core$routing$fn__3879.invoke(core.clj:185)
+	at clojure.core$some.invokeStatic(core.clj:2701)
+	at clojure.core$some.invoke(core.clj:2692)
+	at compojure.core$routing.invokeStatic(core.clj:185)
+	at compojure.core$routing.doInvoke(core.clj:182)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:667)
+	at clojure.core$apply.invoke(core.clj:660)
+	at compojure.core$routes$fn__3883.invoke(core.clj:192)
+	at compojure.api.compojure_compat$make_context$handler__14307.invoke(compojure_compat.clj:26)
+	at compojure.api.compojure_compat$make_context$fn__14309.invoke(compojure_compat.clj:34)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at compojure.core$routing$fn__3879.invoke(core.clj:185)
+	at clojure.core$some.invokeStatic(core.clj:2701)
+	at clojure.core$some.invoke(core.clj:2692)
+	at compojure.core$routing.invokeStatic(core.clj:185)
+	at compojure.core$routing.doInvoke(core.clj:182)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:667)
+	at clojure.core$apply.invoke(core.clj:660)
+	at compojure.core$routes$fn__3883.invoke(core.clj:192)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at ring.swagger.middleware$wrap_swagger_data$fn__15774.invoke(middleware.clj:35)
+	at compojure.api.middleware$wrap_swagger_data$fn__12380.invoke(middleware.clj:190)
+	at compojure.api.middleware$wrap_inject_data$fn__12358.invoke(middleware.clj:96)
+	at muuntaja.middleware$wrap_params$fn__11355.invoke(middleware.clj:52)
+	at compojure.api.middleware$wrap_exceptions$fn__12347.invoke(middleware.clj:62)
+	at muuntaja.middleware$wrap_format_request$fn__11367.invoke(middleware.clj:114)
+	at compojure.api.middleware$wrap_exceptions$fn__12347.invoke(middleware.clj:62)
+	at muuntaja.middleware$wrap_format_response$fn__11371.invoke(middleware.clj:132)
+	at muuntaja.middleware$wrap_format_negotiate$fn__11364.invoke(middleware.clj:96)
+	at ring.middleware.keyword_params$wrap_keyword_params$fn__10002.invoke(keyword_params.clj:53)
+	at ring.middleware.nested_params$wrap_nested_params$fn__10060.invoke(nested_params.clj:89)
+	at ring.middleware.params$wrap_params$fn__10134.invoke(params.clj:67)
+	at compojure.api.middleware$wrap_inject_data$fn__12358.invoke(middleware.clj:96)
+	at compojure.api.routes.Route.invoke(routes.clj:89)
+	at clojure.lang.Var.invoke(Var.java:384)
+	at ring.middleware.reload$wrap_reload$fn__17455.invoke(reload.clj:39)
+	at ring.adapter.jetty$proxy_handler$fn__17545.invoke(jetty.clj:27)
+	at ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle(Unknown Source)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:386)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:562)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:378)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-19 17:47:20.713  INFO 73838 --- [tp1077042020-23] s.user               : user (openid "test") has logged in
+2020-01-19 17:47:49.673  INFO 73838 --- [tp1077042020-22] s.user               : user (openid "test") has logged in
+2020-01-19 17:48:47.579  INFO 73838 --- [tp1077042020-26] s.user               : user (openid "test") has logged in
+2020-01-19 17:49:53.504  INFO 73838 --- [tp1077042020-29] s.user               : user (openid "test") has logged in
+2020-01-19 17:50:09.146  INFO 73838 --- [tp1077042020-28] s.user               : user (openid "test") has logged in
+2020-01-19 17:50:34.641  INFO 73838 --- [tp1077042020-29] s.user               : user (openid "test") has logged in
+2020-01-19 17:51:26.073  INFO 73838 --- [tp1077042020-22] s.user               : user (openid "test") has logged in
+2020-01-19 17:51:44.482  INFO 73838 --- [tp1077042020-23] s.user               : user (openid "test") has logged in
+2020-01-19 17:51:47.180  INFO 73838 --- [tp1077042020-26] s.user               : user (openid "test") has logged in
+2020-01-19 17:52:22.020  INFO 73838 --- [tp1077042020-27] s.user               : user (openid "test") has logged in
+2020-01-19 17:52:41.006  INFO 73838 --- [tp1077042020-23] s.user               : user (openid "test") has logged in
+2020-01-19 17:52:49.200  INFO 73838 --- [tp1077042020-27] s.user               : user (openid "test") has logged in
+2020-01-19 17:56:16.796  INFO 73838 --- [tp1077042020-26] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:20:01.941  INFO 75242 --- [           main] o.e.j.u.log          : Logging initialized @8011ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:20:03.129  INFO 75242 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:20:03.192  INFO 75242 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:152}] to 127.0.0.1:27017
+2020-01-19 18:20:03.197  INFO 75242 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2810155}
+2020-01-19 18:20:03.873  INFO 75242 --- [           main] s.wx                 : weixin access token {:access_token 29_MpY0rKfkDqnH0ZccyRw-uP39tiA4gDk7nAX2Inv7CmLtwS-xkDzHKuuaULzwzb9OQ3ENROI2Gu7MfF5UDokx2wR30R1svljKc5zEAkGCQlP-Ij8od0pzfZ0ywA0YNHfAHAKZT, :expires_in 7200}
+2020-01-19 18:20:04.142 ERROR 75242 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: JIjadzyFe-cd5TwA ]
+2020-01-19 18:20:04.406 ERROR 75242 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: JIjaT27FE-13RelA ]
+2020-01-19 18:20:04.453  INFO 75242 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:153}] to 127.0.0.1:27017
+2020-01-19 18:20:04.472 ERROR 75242 --- [           main] s.user               : user is already registered
+2020-01-19 18:20:04.480 ERROR 75242 --- [           main] s.user               : user is already registered
+2020-01-19 18:20:04.484  INFO 75242 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:21:05.277  INFO 75359 --- [           main] o.e.j.u.log          : Logging initialized @8281ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:21:06.512  INFO 75359 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:21:06.576  INFO 75359 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:154}] to 127.0.0.1:27017
+2020-01-19 18:21:06.581  INFO 75359 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2666684}
+2020-01-19 18:21:07.482  INFO 75359 --- [           main] s.wx                 : weixin access token {:access_token 29_nnHVL1FHEURP0cGz2nJeg3Vr-fHyWrResR44rFeinMx-Rkv2X4BAyOw4ljdB2vaLp7DBRhug5i5RuThU9U59Z2UNLNLCWdbrrKimTPIfFn4gn8_t11Qg62UURoNKehrTM6w-fI9xLDjMyiczOQXfAEAYAH, :expires_in 7200}
+2020-01-19 18:21:07.764 ERROR 75359 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: kIjaoqaLRa-5acbHA ]
+2020-01-19 18:21:09.398 ERROR 75359 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: kIjaCDToRa-FunQQA ]
+2020-01-19 18:21:09.443  INFO 75359 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:155}] to 127.0.0.1:27017
+2020-01-19 18:21:09.497  INFO 75359 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:21:09.502 ERROR 75359 --- [           main] s.user               : user is already registered
+2020-01-19 18:21:09.506  INFO 75359 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:26:37.675  INFO 73838 --- [tp1077042020-28] s.user               : user (openid "test") has logged in
+2020-01-19 18:29:12.368  INFO 75674 --- [           main] o.e.j.u.log          : Logging initialized @8167ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:29:13.595  INFO 75674 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:29:13.663  INFO 75674 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:156}] to 127.0.0.1:27017
+2020-01-19 18:29:13.668  INFO 75674 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2954209}
+2020-01-19 18:29:14.171  INFO 75674 --- [           main] s.wx                 : weixin access token {:access_token 29__aMOn9X8m0OO6KDoLxV4JlfDud-SmyUonRgp3xFOE0OJBlYA7TyhjB6EfkQbNVnEfDEq8z0v337DaNUzkcnVX4n8FGfKPPyX-JxOiL1EG-uy7BSnm_R8UnAlvpBozywvRHjoaVfR7sqlytwtGHUbAHANOB, :expires_in 7200}
+2020-01-19 18:29:14.258 ERROR 75674 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: oIjaY24ce-S9um7a ]
+2020-01-19 18:29:14.355 ERROR 75674 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: oIjaA3LnRa-EjamFA ]
+2020-01-19 18:29:14.396  INFO 75674 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:157}] to 127.0.0.1:27017
+2020-01-19 18:29:14.415 ERROR 75674 --- [           main] s.user               : user is already registered
+2020-01-19 18:29:14.423 ERROR 75674 --- [           main] s.user               : user is already registered
+2020-01-19 18:29:14.427  INFO 75674 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:29:14.430 ERROR 75674 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:29:14.452  INFO 75674 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:29:14.456 ERROR 75674 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:29:14.459 ERROR 75674 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:32:40.833  INFO 75812 --- [           main] o.e.j.u.log          : Logging initialized @8192ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:32:42.087  INFO 75812 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:32:42.153  INFO 75812 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:158}] to 127.0.0.1:27017
+2020-01-19 18:32:42.157  INFO 75812 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2656072}
+2020-01-19 18:32:42.300  INFO 75812 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:159}] to 127.0.0.1:27017
+2020-01-19 18:32:42.709  INFO 75812 --- [           main] s.wx                 : weixin access token {:access_token 29_tcEGAbgudNqM9Op49dnN3WDT7Lh6OfB8jboth4TDJMPJV4wD2DZIzFCLjIoYbXLYp4GW3pmlNA608cE12CYq-LrNo-5g8mCz50bjI1CKvbYS43xZg2odqMpGR8K3VUfQ0wKQvTB-l-tuzWMxOBAcADAFSR, :expires_in 7200}
+2020-01-19 18:32:42.803 ERROR 75812 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: PIjah0yFe-JZgTWa ]
+2020-01-19 18:32:42.874 ERROR 75812 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: PIjajRXIRa-i3__FA ]
+2020-01-19 18:32:42.936  INFO 75812 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:32:42.940 ERROR 75812 --- [           main] s.user               : user is already registered
+2020-01-19 18:32:42.944  INFO 75812 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:32:42.948 ERROR 75812 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:32:42.954  INFO 75812 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:32:42.958 ERROR 75812 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:32:42.961 ERROR 75812 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:32:43.067  INFO 75812 --- [           main] s.wx                 : weixin access token {:access_token 29_9ZlNfnBeqJxi4Ib49dnN3WDT7Lh6OfB8jboth4TDJMPJV4wD2DZIzFCLjIpKcQrzRn1fU5FeQq9cvyoTlFWKq9XZBlOLruPGBIen_v3efTqlI0a1eKmOMg8hZOwEDvZJo3sNB28TYODaLDFsLQHcADASXO, :expires_in 7199}
+2020-01-19 18:32:43.152 ERROR 75812 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: PIjam44ce-N ]
+2020-01-19 18:32:43.249 ERROR 75812 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: PIjanbToRa-.uiBMa ]
+2020-01-19 18:32:43.255  INFO 75812 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:32:43.259 ERROR 75812 --- [           main] s.user               : user is already registered
+2020-01-19 18:32:43.262  INFO 75812 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:32:43.265 ERROR 75812 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:32:43.269  INFO 75812 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:32:43.273 ERROR 75812 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:32:43.276 ERROR 75812 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:33:53.228  INFO 76341 --- [           main] o.e.j.u.log          : Logging initialized @8335ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:33:54.444  INFO 76341 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:33:54.508  INFO 76341 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:160}] to 127.0.0.1:27017
+2020-01-19 18:33:54.513  INFO 76341 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2982237}
+2020-01-19 18:33:54.658  INFO 76341 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:161}] to 127.0.0.1:27017
+2020-01-19 18:34:04.876 ERROR 76341 --- [           main] s.wx                 : weixin access token failure:  SSL peer shut down incorrectly
+2020-01-19 18:34:05.405 ERROR 76341 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: QIjaAa0gE-9 ]
+2020-01-19 18:34:06.797 ERROR 76341 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: QIjaWTHCe-osDz0a ]
+2020-01-19 18:34:06.848  INFO 76341 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:34:06.853 ERROR 76341 --- [           main] s.user               : user is already registered
+2020-01-19 18:34:06.856  INFO 76341 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:34:06.860 ERROR 76341 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:34:06.866  INFO 76341 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:34:06.870 ERROR 76341 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:34:06.873 ERROR 76341 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:34:07.204  INFO 76341 --- [           main] s.wx                 : weixin access token {:access_token 29_O8vFu1q0WKZ7ZO3_WXfimlfdMA4yZcXg8C-f-CiMf-FCwXOUEiYfDyNyA4CTOtkV9nmH8uuocPht6UjtSigeLGDmVN3XGgZkROSEJLTviOMbpvplYMhhDjti5PMlxckywVMjkBty6T32vPRdLCTgADAZQH, :expires_in 7200}
+2020-01-19 18:34:07.572 ERROR 76341 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: QIjaA6yFe-HZTMUA ]
+2020-01-19 18:34:07.818 ERROR 76341 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: QIjagoLoRa-pYXOVa ]
+2020-01-19 18:34:07.822  INFO 76341 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:34:07.826 ERROR 76341 --- [           main] s.user               : user is already registered
+2020-01-19 18:34:07.829  INFO 76341 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:34:07.832 ERROR 76341 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:34:07.836  INFO 76341 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:34:07.838 ERROR 76341 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:34:07.841 ERROR 76341 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:34:29.147  INFO 76457 --- [           main] o.e.j.u.log          : Logging initialized @8324ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 18:34:30.407  INFO 76457 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 18:34:30.471  INFO 76457 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:162}] to 127.0.0.1:27017
+2020-01-19 18:34:30.476  INFO 76457 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3090384}
+2020-01-19 18:34:30.621  INFO 76457 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:163}] to 127.0.0.1:27017
+2020-01-19 18:34:31.333  INFO 76457 --- [           main] s.wx                 : weixin access token {:access_token 29_4Aok1jh0cChoxazNxyUpeMB2-YLFO7e_OfytlkUabDXMIG7BgOHbgQv6dyqqpiS248NVXHQITOVPpjr0BwUTKDwY-_cPWcTWlKUtUrapHzMm8MPMuWD2xAFQh_3VNFqTNARTHMp14cNfj1d_NGRfAJATMX, :expires_in 7200}
+2020-01-19 18:34:31.612 ERROR 76457 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: QIjahNwgE-snOyRA ]
+2020-01-19 18:34:31.867 ERROR 76457 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: QIjajo4FE-oq_OIA ]
+2020-01-19 18:34:31.926  INFO 76457 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:34:31.931 ERROR 76457 --- [           main] s.user               : user is already registered
+2020-01-19 18:34:31.934  INFO 76457 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:34:31.938 ERROR 76457 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:34:31.944  INFO 76457 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:34:31.948 ERROR 76457 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:34:31.951 ERROR 76457 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 18:34:32.220  INFO 76457 --- [           main] s.wx                 : weixin access token {:access_token 29_JC81gAFu_RKuJo-CxyUpeMB2-YLFO7e_OfytlkUabDXMIG7BgOHbgQv6dyoiuPTfIlACBORt4vsRjNxOO3Rm8Ix4W7xbMwtUPjLf033oTg4jz5vzLS79VlR2wt0t9qIuC1xfg0Hk-qAe8XQqGVXfAJAXMO, :expires_in 7199}
+2020-01-19 18:34:32.654 ERROR 76457 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: QIjau.wgE-zu ]
+2020-01-19 18:34:32.961 ERROR 76457 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: QIjaSzmoRa-YbdUTa ]
+2020-01-19 18:34:32.967  INFO 76457 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 18:34:32.971 ERROR 76457 --- [           main] s.user               : user is already registered
+2020-01-19 18:34:32.974  INFO 76457 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 18:34:32.977 ERROR 76457 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 18:34:32.981  INFO 76457 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 18:34:32.985 ERROR 76457 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 18:34:32.987 ERROR 76457 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 21:24:16.407  INFO 77231 --- [           main] o.e.j.u.log          : Logging initialized @8824ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-19 21:24:17.710  INFO 77231 --- [           main] o.m.d.cluster        : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-19 21:24:17.798  INFO 77231 --- [127.0.0.1:27017] o.m.d.connection     : Opened connection [connectionId{localValue:1, serverValue:164}] to 127.0.0.1:27017
+2020-01-19 21:24:17.803  INFO 77231 --- [127.0.0.1:27017] o.m.d.cluster        : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 14]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2740291}
+2020-01-19 21:24:17.968  INFO 77231 --- [           main] o.m.d.connection     : Opened connection [connectionId{localValue:2, serverValue:165}] to 127.0.0.1:27017
+2020-01-19 21:24:18.569  INFO 77231 --- [           main] s.wx                 : weixin access token {:access_token 29_nKv7AJlMSLYOaYs0I6GF8aPv_5PzxoxJtLfT-RmqKlVcF5Ko2zId-guyUuH4_C2pWh33I9Rfi9y8QjL5rd8jn5r6uRrfmorjNmQyljvcaZt5HOJU84dwBsg95SmphAYyNaOaV9e3EuwB90rYOHMeABAVOT, :expires_in 7200}
+2020-01-19 21:24:19.171 ERROR 77231 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: LkjaB5yFe-pCp9ta ]
+2020-01-19 21:24:20.013 ERROR 77231 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: Lkjaf7yIRa-h69OKa ]
+2020-01-19 21:24:20.091  INFO 77231 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 21:24:20.096 ERROR 77231 --- [           main] s.user               : user is already registered
+2020-01-19 21:24:20.101  INFO 77231 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 21:24:20.107 ERROR 77231 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 21:24:20.113  INFO 77231 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 21:24:20.118 ERROR 77231 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 21:24:20.122 ERROR 77231 --- [           main] s.user               : invalid openid or pid test 4
+2020-01-19 21:24:20.480  INFO 77231 --- [           main] s.wx                 : weixin access token {:access_token 29_XyicNtOs1jO4Ggv1I6GF8aPv_5PzxoxJtLfT-RmqKlVcF5Ko2zId-guyUuF8t-ie511dhnnMxEcqvTJ1vroFyBOh7fv4ViWC1NkKVRD6vWQlARG7NtVd-uIxnFMnnAkM8JGPIAosBnkgeOkoAXWeABASPO, :expires_in 7198}
+2020-01-19 21:24:20.892 ERROR 77231 --- [           main] s.wx                 : wx access token failure, errcode: 40029  errmsg:  invalid code, hints: [ req_id: LkjaiBwgE-jSukWa ]
+2020-01-19 21:24:21.691 ERROR 77231 --- [           main] s.wx                 : get weixin user-info error, errcode:  40001  errmsg:  invalid credential, access_token is invalid or not latest, hints: [ req_id: LkjaBkuhE-xCuwZa ]
+2020-01-19 21:24:21.696  INFO 77231 --- [           main] s.user               : user registered, openid is " test "
+2020-01-19 21:24:21.701 ERROR 77231 --- [           main] s.user               : user is already registered
+2020-01-19 21:24:21.704  INFO 77231 --- [           main] s.user               : user (openid "test") has logged in
+2020-01-19 21:24:21.710 ERROR 77231 --- [           main] s.user               : openid "test1" is not registered
+2020-01-19 21:24:21.717  INFO 77231 --- [           main] s.user               : new order created, openid: " test ", pid: " 1 "
+2020-01-19 21:24:21.723 ERROR 77231 --- [           main] s.user               : invalid openid or pid test1 1
+2020-01-19 21:24:21.726 ERROR 77231 --- [           main] s.user               : invalid openid or pid test 4
